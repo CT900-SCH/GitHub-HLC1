@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: b22dca62c3e40f244bd429e951c7263e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -586673999964297059
+    second: LightBandit_Flipped_0
+  - first:
+      213: -111805562443218883
+    second: LightBandit_Flipped_1
+  - first:
+      213: 4986458504172613515
+    second: LightBandit_Flipped_2
+  - first:
+      213: -8284075571000027217
+    second: LightBandit_Flipped_3
+  - first:
+      213: -4470801943850094272
+    second: LightBandit_Flipped_4
+  - first:
+      213: 1474526898998314438
+    second: LightBandit_Flipped_5
+  - first:
+      213: -3782805568562404609
+    second: LightBandit_Flipped_6
+  - first:
+      213: 686172210407906737
+    second: LightBandit_Flipped_7
+  - first:
+      213: -8924795063167785487
+    second: LightBandit_Flipped_8
+  - first:
+      213: 4613035965512088771
+    second: LightBandit_Flipped_9
+  - first:
+      213: -2575673965476410383
+    second: LightBandit_Flipped_10
+  - first:
+      213: 5727533087314471835
+    second: LightBandit_Flipped_11
+  - first:
+      213: 3482928190602906440
+    second: LightBandit_Flipped_12
+  - first:
+      213: -8204941111695774154
+    second: LightBandit_Flipped_13
+  - first:
+      213: -762138673542404606
+    second: LightBandit_Flipped_14
+  - first:
+      213: 7430825297212960500
+    second: LightBandit_Flipped_15
+  - first:
+      213: 1365029702389838582
+    second: LightBandit_Flipped_16
+  - first:
+      213: -735704048678673287
+    second: LightBandit_Flipped_17
+  - first:
+      213: -1761951859437035429
+    second: LightBandit_Flipped_18
+  - first:
+      213: 8077211589972603383
+    second: LightBandit_Flipped_19
+  - first:
+      213: 6255545803000823194
+    second: LightBandit_Flipped_20
+  - first:
+      213: 6213941805945953527
+    second: LightBandit_Flipped_21
+  - first:
+      213: -8450014723937760398
+    second: LightBandit_Flipped_22
+  - first:
+      213: 1119424944181530637
+    second: LightBandit_Flipped_23
+  - first:
+      213: -7598521509709723520
+    second: LightBandit_Flipped_24
+  - first:
+      213: -3861681639913155195
+    second: LightBandit_Flipped_25
+  - first:
+      213: 6747622897502927134
+    second: LightBandit_Flipped_26
+  - first:
+      213: 8397476230855045487
+    second: LightBandit_Flipped_27
+  - first:
+      213: -4455562722963193603
+    second: LightBandit_Flipped_28
+  - first:
+      213: -5362047905026866333
+    second: LightBandit_Flipped_29
+  - first:
+      213: 8228431821095555422
+    second: LightBandit_Flipped_30
+  - first:
+      213: -3227033293199686514
+    second: LightBandit_Flipped_31
+  - first:
+      213: 5062391951063070113
+    second: LightBandit_Flipped_32
+  - first:
+      213: 5091913233742803295
+    second: LightBandit_Flipped_33
+  - first:
+      213: 3519212401501623708
+    second: LightBandit_Flipped_34
+  - first:
+      213: 2667667497497880319
+    second: LightBandit_Flipped_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightBandit_Flipped_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 210
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98ab29fa17bbd7f0800000000000000
+      internalID: -586673999964297059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 210
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30c8aeee69c27ef0800000000000000
+      internalID: -111805562443218883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 210
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f2f641795733540800000000000000
+      internalID: 4986458504172613515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 210
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa75d0ab82d090d80800000000000000
+      internalID: -8284075571000027217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 210
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04170b3c15584f1c0800000000000000
+      internalID: -4470801943850094272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 210
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c58d8af662967410800000000000000
+      internalID: 1474526898998314438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 210
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2e777a066c08bc0800000000000000
+      internalID: -3782805568562404609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 210
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd9b186df5c58900800000000000000
+      internalID: 686172210407906737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 162
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f569b6fc22c42480800000000000000
+      internalID: -8924795063167785487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 163
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccf27c05cbc40040800000000000000
+      internalID: 4613035965512088771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 162
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb8e86cc2e514cd0800000000000000
+      internalID: -2575673965476410383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 161
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9beca44ff84c7f40800000000000000
+      internalID: 5727533087314471835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_12
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 162
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b841b6cb8d55030800000000000000
+      internalID: 3482928190602906440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 164
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63eef52d781322e80800000000000000
+      internalID: -8204941111695774154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 162
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206eae51ae65c65f0800000000000000
+      internalID: -762138673542404606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_15
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 162
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe6d54dc389f1760800000000000000
+      internalID: 7430825297212960500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 114
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2bdc6384f81f210800000000000000
+      internalID: 1365029702389838582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_17
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 114
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974e0bec0114ac5f0800000000000000
+      internalID: -735704048678673287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 114
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50aaea7e1a4c87e0800000000000000
+      internalID: -1761951859437035429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 114
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f13cfb6525081070800000000000000
+      internalID: 8077211589972603383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 114
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dbc08b3c920d650800000000000000
+      internalID: 6255545803000823194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 114
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc9b5e462b5c3650800000000000000
+      internalID: 6213941805945953527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_22
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 114
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b8ed0f0648bba80800000000000000
+      internalID: -8450014723937760398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 114
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00d6a64e0ff88f00800000000000000
+      internalID: 1119424944181530637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 66
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088469312f0ac8690800000000000000
+      internalID: -7598521509709723520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 66
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5851451320d886ac0800000000000000
+      internalID: -3861681639913155195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_26
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 66
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1934fb564f54ad50800000000000000
+      internalID: 6747622897502927134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_27
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 66
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61b6e5e324d98470800000000000000
+      internalID: 8397476230855045487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_28
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 66
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df08e4f5f49aa22c0800000000000000
+      internalID: -4455562722963193603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_29
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 66
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3630f38f6dd2695b0800000000000000
+      internalID: -5362047905026866333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_30
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 66
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51dbea2523413270800000000000000
+      internalID: 8228431821095555422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_31
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 66
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84497041564733d0800000000000000
+      internalID: -3227033293199686514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 18
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a539e468aa314640800000000000000
+      internalID: 5062391951063070113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_33
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 18
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51b954ab1c1aa640800000000000000
+      internalID: 5091913233742803295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_34
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 18
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9557a89801c6d030800000000000000
+      internalID: 3519212401501623708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBandit_Flipped_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 18
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6673f7475750520800000000000000
+      internalID: 2667667497497880319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3f8234b429ae609409ece6395f3012ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LightBandit_Flipped_0: -586673999964297059
+      LightBandit_Flipped_1: -111805562443218883
+      LightBandit_Flipped_10: -2575673965476410383
+      LightBandit_Flipped_11: 5727533087314471835
+      LightBandit_Flipped_12: 3482928190602906440
+      LightBandit_Flipped_13: -8204941111695774154
+      LightBandit_Flipped_14: -762138673542404606
+      LightBandit_Flipped_15: 7430825297212960500
+      LightBandit_Flipped_16: 1365029702389838582
+      LightBandit_Flipped_17: -735704048678673287
+      LightBandit_Flipped_18: -1761951859437035429
+      LightBandit_Flipped_19: 8077211589972603383
+      LightBandit_Flipped_2: 4986458504172613515
+      LightBandit_Flipped_20: 6255545803000823194
+      LightBandit_Flipped_21: 6213941805945953527
+      LightBandit_Flipped_22: -8450014723937760398
+      LightBandit_Flipped_23: 1119424944181530637
+      LightBandit_Flipped_24: -7598521509709723520
+      LightBandit_Flipped_25: -3861681639913155195
+      LightBandit_Flipped_26: 6747622897502927134
+      LightBandit_Flipped_27: 8397476230855045487
+      LightBandit_Flipped_28: -4455562722963193603
+      LightBandit_Flipped_29: -5362047905026866333
+      LightBandit_Flipped_3: -8284075571000027217
+      LightBandit_Flipped_30: 8228431821095555422
+      LightBandit_Flipped_31: -3227033293199686514
+      LightBandit_Flipped_32: 5062391951063070113
+      LightBandit_Flipped_33: 5091913233742803295
+      LightBandit_Flipped_34: 3519212401501623708
+      LightBandit_Flipped_35: 2667667497497880319
+      LightBandit_Flipped_4: -4470801943850094272
+      LightBandit_Flipped_5: 1474526898998314438
+      LightBandit_Flipped_6: -3782805568562404609
+      LightBandit_Flipped_7: 686172210407906737
+      LightBandit_Flipped_8: -8924795063167785487
+      LightBandit_Flipped_9: 4613035965512088771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

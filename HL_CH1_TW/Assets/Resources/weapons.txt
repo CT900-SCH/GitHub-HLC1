@@ -1,0 +1,82 @@
+{
+  "weapons": [
+    {
+      "weaponType": 1,
+      "spritePath": "Sprites/Weapons/Knife",
+      "prefabPath": "Prefabs/Weapons/Projectile 1_Knife",
+      "weaponName": "Knife",
+      "damage": 5,
+      "speed": 16,
+      "cooldownDuration": 0.85,
+      "pierce": 1,
+      "description": "This knife was picked up from the ground just recently.",
+      "dropRate": 100,
+      "rarity": 0
+    },
+    {
+      "weaponType": 0,
+      "spritePath": "Sprites/Weapons/Garlic",
+      "prefabPath": "Prefabs/Weapons/Melee 1_Garlic",
+      "weaponName": "Garlic",
+      "damage": 10,
+      "speed": 0,
+      "cooldownDuration": 2.2,
+      "pierce": 1,
+      "description": "Garlics smell horrible! But horribly delicious!",
+      "dropRate": 100,
+      "rarity": 0
+    },
+    {
+      "weaponType": 0,
+      "spritePath": "Sprites/Weapons/Wooden Shield",
+      "prefabPath": "Prefabs/Weapons/Melee 2_Shield",
+      "weaponName": "Wooden Shield",
+      "damage": 7,
+      "speed": 0,
+      "cooldownDuration": 2.5,
+      "pierce": 3,
+      "description": "It's an old Wooden Shield.",
+      "dropRate": 100,
+      "rarity": 0
+    },
+    {
+      "weaponType": 1,
+      "spritePath": "Sprites/Weapons/Axe",
+      "prefabPath": "Prefabs/Weapons/Projectile 2_Axe",
+      "weaponName": "Axe",
+      "damage": 9,
+      "speed": 11,
+      "cooldownDuration": 1.5,
+      "pierce": 3,
+      "description": "It's an old Axe.",
+      "dropRate": 100,
+      "rarity": 0
+    },
+    {
+      "weaponType": 0,
+      "spritePath": "Sprites/Weapons/FireWall",
+      "prefabPath": "Prefabs/Weapons/Melee 3_Firewall",
+      "weaponName": "FireWall",
+      "damage": 30,
+      "speed": 0,
+      "cooldownDuration": 4,
+      "pierce": 6,
+      "description": "FireWall is hot, it's really really hot!",
+      "dropRate": 100,
+      "rarity": 1
+    },
+    {
+      "weaponType": 1,
+      "spritePath": "Sprites/Weapons/FireBall",
+      "prefabPath": "Prefabs/Weapons/Projectile 3_Fireball",
+      "weaponName": "FireBall",
+      "damage": 20,
+      "speed": 0,
+      "cooldownDuration": 1.75,
+      "pierce": 1,
+      "description": "FireBall is hot, it's really really hot!",
+      "dropRate": 100,
+      "rarity": 1
+    }
+  ]
+}

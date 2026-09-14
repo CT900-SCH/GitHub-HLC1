@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 81f7c6ec3c9306d46b530d0713e854b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7888714532775187117
+    second: Studio LOGO_0
+  - first:
+      213: 2406059184666588253
+    second: Studio LOGO_1
+  - first:
+      213: 4338393085794993928
+    second: Studio LOGO_2
+  - first:
+      213: 8936023095323424691
+    second: Studio LOGO_3
+  - first:
+      213: -2981817329455534903
+    second: Studio LOGO_4
+  - first:
+      213: -6202976212009150320
+    second: Studio LOGO_5
+  - first:
+      213: 3228040389320751582
+    second: Studio LOGO_6
+  - first:
+      213: -2982397764772434341
+    second: Studio LOGO_7
+  - first:
+      213: -8180572607183254913
+    second: Studio LOGO_8
+  - first:
+      213: 7606035066727760225
+    second: Studio LOGO_9
+  - first:
+      213: 7494546937053206489
+    second: Studio LOGO_10
+  - first:
+      213: -1339520505647183240
+    second: Studio LOGO_11
+  - first:
+      213: 5851615783027215948
+    second: Studio LOGO_12
+  - first:
+      213: 2974062424421671435
+    second: Studio LOGO_13
+  - first:
+      213: 5662461490141159301
+    second: Studio LOGO_14
+  - first:
+      213: 3023322127978619305
+    second: Studio LOGO_15
+  - first:
+      213: -3474256397898781907
+    second: Studio LOGO_16
+  - first:
+      213: 4472919151731919172
+    second: Studio LOGO_17
+  - first:
+      213: -7893012711459260868
+    second: Studio LOGO_18
+  - first:
+      213: 6791079432529349444
+    second: Studio LOGO_19
+  - first:
+      213: -3777000369577130320
+    second: Studio LOGO_20
+  - first:
+      213: -211748333897201543
+    second: Studio LOGO_21
+  - first:
+      213: 4649676464370640631
+    second: Studio LOGO_22
+  - first:
+      213: -6969956978837286415
+    second: Studio LOGO_23
+  - first:
+      213: 703211164832912035
+    second: Studio LOGO_24
+  - first:
+      213: -4248105929618072343
+    second: Studio LOGO_25
+  - first:
+      213: -2214356578997342601
+    second: Studio LOGO_26
+  - first:
+      213: -8251397062833761605
+    second: Studio LOGO_27
+  - first:
+      213: 4285833925373023093
+    second: Studio LOGO_28
+  - first:
+      213: 3247886262967198108
+    second: Studio LOGO_29
+  - first:
+      213: 8696347514808004333
+    second: Studio LOGO_30
+  - first:
+      213: -3394601572360640551
+    second: Studio LOGO_31
+  - first:
+      213: -1765116552474224836
+    second: Studio LOGO_32
+  - first:
+      213: 6450501091941769309
+    second: Studio LOGO_33
+  - first:
+      213: -7750179645423378912
+    second: Studio LOGO_34
+  - first:
+      213: 5991858974872037947
+    second: Studio LOGO_35
+  - first:
+      213: -5441677744644751008
+    second: Studio LOGO_36
+  - first:
+      213: -2137800754022776653
+    second: Studio LOGO_37
+  - first:
+      213: -4065356763229351818
+    second: Studio LOGO_38
+  - first:
+      213: -5701234325200657042
+    second: Studio LOGO_39
+  - first:
+      213: -1945848473215389048
+    second: Studio LOGO_40
+  - first:
+      213: 8074647179594142730
+    second: Studio LOGO_41
+  - first:
+      213: -7241376855402917208
+    second: Studio LOGO_42
+  - first:
+      213: -7999499194266111804
+    second: Studio LOGO_43
+  - first:
+      213: -4084785246075608426
+    second: Studio LOGO_44
+  - first:
+      213: 5193514063145222486
+    second: Studio LOGO_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Studio LOGO_0
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 626
+        width: 573
+        height: 1009
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039ee3496a2c0864a8bcf5891d407959
+      internalID: -207814251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Studio LOGO_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 35
+        width: 1188
+        height: 574
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d4cf284e5a2a945afc8cf712503724
+      internalID: -1067131598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1e0706149fede5f47983e3e1d2fdda58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Studio LOGO_0: -207814251
+      Studio LOGO_1: -1067131598
+      Studio LOGO_46: 1052763874
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

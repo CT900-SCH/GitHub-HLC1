@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28df5474d55ab3f4db721b24dcbe5145, type: 3}
+  m_Name: Main Quests - The Journey (Chapter 1) - After Battle
+  m_EditorClassIdentifier: 
+  setName: The Journey (Chapter 1) - After Battle
+  lines:
+  - speakerName: Hero
+    line: I have killed all the Vampires!
+    voiceClip: {fileID: 8300000, guid: 957a8706b8d687a4db161b24ccd1a243, type: 3}
+    leftSprite: {fileID: -6146700129834819302, guid: 9bcbe418df3b56e44ba75c64636feba5, type: 3}
+    rightSprite: {fileID: -983950268115033839, guid: a5bbf3aa0764fc44b924cc1c94bb6fab, type: 3}
+    centerSprite: {fileID: -1028169084966377830, guid: 5158d44ca8f1eb549bf946378630516f, type: 3}
+    leftImageOpacity: 1
+    rightImageOpacity: 0
+    centerImageOpacity: 1
+  - speakerName: Civilian
+    line: Thank you Hero!
+    voiceClip: {fileID: 8300000, guid: c0f25f09813fdd642baf46c93962d9ab, type: 3}
+    leftSprite: {fileID: -6146700129834819302, guid: 9bcbe418df3b56e44ba75c64636feba5, type: 3}
+    rightSprite: {fileID: -983950268115033839, guid: a5bbf3aa0764fc44b924cc1c94bb6fab, type: 3}
+    centerSprite: {fileID: -1028169084966377830, guid: 5158d44ca8f1eb549bf946378630516f, type: 3}
+    leftImageOpacity: 0.5
+    rightImageOpacity: 1
+    centerImageOpacity: 1
+  sceneName: Main Scene

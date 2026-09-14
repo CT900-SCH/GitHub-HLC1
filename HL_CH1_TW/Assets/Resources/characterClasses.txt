@@ -1,0 +1,32 @@
+{
+  "classes": [
+    {
+      "className": "Warrior",
+      "MaxHP": 12,
+      "moveSpeed": 7,
+      "description": "Strong melee fighter with high durability.",
+      "ID": 0,
+      "starterWeaponPrimary": 2,
+      "starterWeaponSecondary": 3
+    },
+    {
+      "className": "Rogue",
+      "MaxHP": 10,
+      "moveSpeed": 9,
+      "description": "Guardian of the forest, fastest amongst all.",
+      "ID": 1,
+      "starterWeaponPrimary": 0,
+      "starterWeaponSecondary": 1
+    },
+    {
+      "className": "Mage",
+      "MaxHP": 8,
+      "moveSpeed": 6,
+      "description": "Master of elemental magic, fragile but deadly.",
+      "ID": 2,
+      "starterWeaponPrimary": 4,
+      "starterWeaponSecondary": 5
+    }
+  ]
+}
+

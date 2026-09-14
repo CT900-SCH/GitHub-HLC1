@@ -1,0 +1,22 @@
+{
+  "skills": [
+    {
+      "skillName": "Iron Constitution",
+      "effectType": "IncreaseMaxHP",
+      "value": 25,
+      "description": "Increases character's maximum HP by 25."
+    },
+    {
+      "skillName": "Fleet Footed",
+      "effectType": "IncreaseMoveSpeed",
+      "value": 0.2,
+      "description": "Slightly increases character's movement speed by 0.2."
+    },
+    {
+      "skillName": "Weapon Mastery",
+      "effectType": "IncreaseWeaponDamagePercent",
+      "value": 2.0,
+      "description": "All equipped weapons gain +2% damage."
+    }
+  ]
+}

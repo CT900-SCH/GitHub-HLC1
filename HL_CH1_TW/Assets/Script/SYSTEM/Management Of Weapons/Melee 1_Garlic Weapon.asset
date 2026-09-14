@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65456beb5c9401a40aa59c907d5cb148, type: 3}
+  m_Name: Melee 1_Garlic Weapon
+  m_EditorClassIdentifier: 
+  weaponName: 
+  weaponType: 0
+  sprite: {fileID: -912498489993581376, guid: d64d5ef8ce054664084995aa6842d487, type: 3}
+  prefab: {fileID: 2377416536511792137, guid: 5f5474d5072b7c64ab4942f20727efa3, type: 3}
+  damage: 5
+  speed: 0
+  cooldownDuration: 2.2
+  pierce: 1
+  description: Garlics smell horrible! But horribly delicious!

@@ -1,0 +1,56 @@
+{
+"enemyClasses": 
+	[
+		{
+		"name": "MeleeEnemy",
+		"health": 15,
+		"damageDealt" : 8,
+		"movementSpeed": 0.5,	
+		"firerate": 0,
+		"weaponSwingSpeed" : 1,
+		"enemyPattern": "Chase",
+		"bulletSize": 0.0,
+		"bulletSpeed": 0.0,
+		"bulletDespawnTime": 0.0
+		},
+		{
+		"name": "MeleeEnemy_Bat",
+		"health": 3,
+		"damageDealt" : 3,
+		"movementSpeed": 1.0,	
+		"firerate": 0,
+		"weaponSwingSpeed" : 1,
+		"enemyPattern": "Chase",
+		"bulletSize": 0.0,
+		"bulletSpeed": 0.0,
+		"bulletDespawnTime": 0.0
+		},
+
+		{
+		"name": "RangedEnemyQuickFire",
+		"health": 10,
+		"damageDealt" : 10,
+		"movementSpeed": 1.0,
+		"firerate" : 2,
+		"weaponSwingSpeed": 0,
+		"enemyPattern": "Patrol",
+		"bulletSize": 0.5,
+		"bulletSpeed": 3.0,
+		"bulletDespawnTime": 5.0
+		},
+
+
+		{
+		"name": "RangedEnemySlowFire",
+		"health": 30,
+		"damageDealt" : 40,
+		"movementSpeed": 0,
+		"firerate" : 0.5,
+		"weaponSwingSpeed": 0,
+		"enemyPattern": "Look",
+		"bulletSize": 1.0,
+		"bulletSpeed": 1.0,
+		"bulletDespawnTime": 7.0
+		}
+	]
+}
