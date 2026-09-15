@@ -55,7 +55,7 @@
     <UnityVersion>6000.0.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -63,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Assets\Script\SYSTEM\Management Of Resources\Resource Base\ResourceItem.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Dialogues\Dialogue.cs" />
-    <Compile Include="Assets\Script\SYSTEM\UIScripts\UITransitions.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of JSONs\JSON Weapons\WeaponLoader.cs" />
@@ -73,7 +72,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Script\JSONReader.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Audio\SoundManager.cs" />
-    <Compile Include="Assets\Script\PauseScreen\panel.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Dialogues\DialogueLines.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\MeleeWeaponBehaviour.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerGoldDisplay.cs" />
@@ -88,6 +86,7 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Dialogues\DialogueManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Maps\PropRandomizer.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Transitions\ImageSequenceFader.cs" />
     <Compile Include="Assets\Script\Core\GameObjectCore.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Dialogues\DialogueCharacterSlot.cs" />
     <Compile Include="Assets\Script\Gameplay\RangedEnemySlowFire.cs" />
@@ -126,6 +125,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIRewardSelection.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of UIs\MainUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\GameUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Resources\Resource Base\LootPush.cs" />
     <Compile Include="Assets\Script\Audio Scripts\MusicLoop.cs" />
@@ -143,7 +143,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Script\SYSTEM\GameManager.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Levels\EXPEarned.cs" />
-    <Compile Include="Assets\Script\PauseScreen\PauseManager_Joycelyn.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Audio\AudioManager.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\WeaponScriptableObject.cs" />
@@ -160,6 +159,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Levels\PlayerLevelUpStats.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIPlayerSelection.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of UIs\PanelUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\ProjectileWeaponBehaviour.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Maps\MapController.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerItemDisplay.cs" />

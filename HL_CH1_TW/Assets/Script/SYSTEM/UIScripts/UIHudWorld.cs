@@ -8,7 +8,7 @@ public class UIButtonSoundOpenPanel
 {
     public Button button;
     public SoundID sound;
-    public GameUIID uiToOpen;
+    public UIPanelID uiToOpen;
     public bool useReplace; // true = OpenReplace, false = Open
 }
 
@@ -32,7 +32,7 @@ public class UIHudWorld : MonoBehaviour
             if (pair.button != null)
             {
                 SoundID sfx = pair.sound;
-                GameUIID uiID = pair.uiToOpen;
+                UIPanelID uiID = pair.uiToOpen;
                 bool replace = pair.useReplace;
 
                 pair.button.onClick.AddListener(() =>

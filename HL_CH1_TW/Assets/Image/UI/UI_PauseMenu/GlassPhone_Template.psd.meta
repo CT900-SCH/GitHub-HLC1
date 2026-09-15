@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GlassPhone_Template_0: -4141473404093169528
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

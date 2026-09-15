@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameUI : MonoBehaviour
 {
-    public GameUIID ID;
+    public GameSceneID ID;
     public bool ShowCursor;
     public CursorLockMode CursorLockMode = CursorLockMode.None;
 

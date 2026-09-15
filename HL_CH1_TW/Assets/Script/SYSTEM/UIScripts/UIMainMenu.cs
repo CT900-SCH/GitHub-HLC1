@@ -1,43 +1,40 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
+public class UIButtonOpenMainUI
+{
+    public Button button;
+    public SoundID sound;
+    public UIMainID uiToOpen;
+    public bool useReplace;
+}
+
 public class UIMainMenu : MonoBehaviour
 {
-    public Button btnStart;
-    public Button btnSettings;
-    public Button btnQuit;
+    public List<UIButtonOpenMainUI> mainUIButtons;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        btnStart.onClick.AddListener(OnPlayClick);
-        btnSettings.onClick.AddListener(OnSettingsClick);
-        btnQuit.onClick.AddListener(OnQuitClick);
-    }
+        foreach (UIButtonOpenMainUI pair in mainUIButtons)
+        {
+            if (pair.button == null)
+                continue;
 
-    // Update is called once per frame
-    void Update()
-    {
+            SoundID sfx = pair.sound;
+            UIMainID uiID = pair.uiToOpen;
+            bool replace = pair.useReplace;
 
-    }
+            pair.button.onClick.AddListener(() =>
+            {
+                AudioManager.Instance.SFXSound(sfx);
 
-    private void OnSettingsClick()
-    {
-        AudioManager.Instance.SFXSound(SoundID.ButtonClick);
-        UIManager.Instance.Open(GameUIID.Settings);
-    }
-
-    private void OnPlayClick()
-    {
-        AudioManager.Instance.SFXSound(SoundID.Confirm);
-        UIManager.Instance.OpenReplace(GameUIID.Title);
-    }
-
-    private void OnQuitClick()
-    {
-        AudioManager.Instance.SFXSound(SoundID.Cancel);
-        UIManager.Instance.OpenReplace(GameUIID.Title);
+                if (replace)
+                    UIManager.Instance.OpenReplace(uiID);
+                else
+                    UIManager.Instance.Open(uiID);
+            });
+        }
     }
 }

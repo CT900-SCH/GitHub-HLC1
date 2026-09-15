@@ -1,20 +1,23 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIManager : SimpleSingleton<UIManager>
 {
     public GameObject CanvasPrefab;
-
     public string UITemplatePath = "UI Prefab";
 
-    Dictionary<GameUIID, GameObject> _UITemplates = new Dictionary<GameUIID, GameObject>();
-    RectTransform _mainCanvas = null;
+    // Separate template lists for separate UI categories.
+    private Dictionary<UIPanelID, GameObject> panelTemplates =
+        new Dictionary<UIPanelID, GameObject>();
 
-    public List<GameObject> _openedUI = new List<GameObject>();
+    private Dictionary<UIMainID, GameObject> mainUITemplates =
+        new Dictionary<UIMainID, GameObject>();
 
-    public bool HasOpened => _openedUI.Count > 0;
+    private RectTransform mainCanvas;
+
+    public List<GameObject> openedUI = new List<GameObject>();
+
+    public bool HasOpened => openedUI.Count > 0;
 
     protected override void Awake()
     {
@@ -22,96 +25,138 @@ public class UIManager : SimpleSingleton<UIManager>
         Initialize();
     }
 
-
-    // Initialize
-    public void Initialize()
+    private void Initialize()
     {
-        _mainCanvas = (RectTransform)Instantiate(CanvasPrefab).transform;
+        mainCanvas = (RectTransform)Instantiate(CanvasPrefab).transform;
 
-        GameObject[] templates = Resources.LoadAll<GameObject>(UITemplatePath);
+        GameObject[] templates =
+            Resources.LoadAll<GameObject>(UITemplatePath);
 
         foreach (GameObject template in templates)
         {
-            if (template.TryGetComponent(out GameUI uiTemplate))
+            // Register PanelUI prefabs.
+            if (template.TryGetComponent(out PanelUI panelUI))
             {
-                _UITemplates[uiTemplate.ID] = template;
+                panelTemplates[panelUI.ID] = template;
+            }
+
+            // Register MainUI prefabs.
+            if (template.TryGetComponent(out MainUI mainUI))
+            {
+                mainUITemplates[mainUI.ID] = template;
             }
         }
     }
 
-    //Open
-    public GameObject Open(GameUIID id)
+    // Open a PanelUI.
+    public GameObject Open(UIPanelID id)
     {
-        GameObject newUIObj = null;
-
-        if (_UITemplates.TryGetValue(id, out var template))
+        if (panelTemplates.TryGetValue(id, out GameObject template))
         {
-            newUIObj = Instantiate(template, _mainCanvas);
-            _openedUI.Add(newUIObj);
+            return CreateUI(template);
         }
-        return newUIObj;
+
+        Debug.LogWarning("Cannot find PanelUI: " + id);
+        return null;
     }
 
-    public GameObject OpenReplace(GameUIID id)
+    // Open a MainUI.
+    public GameObject Open(UIMainID id)
+    {
+        if (mainUITemplates.TryGetValue(id, out GameObject template))
+        {
+            return CreateUI(template);
+        }
+
+        Debug.LogWarning("Cannot find MainUI: " + id);
+        return null;
+    }
+
+    // Replace everything with a PanelUI.
+    public GameObject OpenReplace(UIPanelID id)
     {
         CloseAll();
         return Open(id);
     }
 
-    //Close
-    public void Close(GameObject obj)
+    // Replace everything with a MainUI.
+    public GameObject OpenReplace(UIMainID id)
     {
-        _openedUI.Remove(obj);
-        Destroy(obj); // TODO do a transition
+        CloseAll();
+        return Open(id);
     }
 
-    //CloseAll
+    private GameObject CreateUI(GameObject template)
+    {
+        GameObject newUI = Instantiate(template, mainCanvas);
+        openedUI.Add(newUI);
+
+        return newUI;
+    }
+
+    public bool IsUIOpen(UIPanelID id)
+    {
+        return openedUI.Exists(ui =>
+            ui != null &&
+            ui.GetComponent<PanelUI>()?.ID == id);
+    }
+
+    public bool IsUIOpen(UIMainID id)
+    {
+        return openedUI.Exists(ui =>
+            ui != null &&
+            ui.GetComponent<MainUI>()?.ID == id);
+    }
+
+    public void Close(GameObject ui)
+    {
+        if (ui == null)
+            return;
+
+        openedUI.Remove(ui);
+        Destroy(ui);
+    }
+
     public void CloseAll()
     {
-        GameObject[] copies = _openedUI.ToArray(); // TODO David promised to explain why this is needed
-        foreach (GameObject obj in copies)
+        GameObject[] copies = openedUI.ToArray();
+
+        foreach (GameObject ui in copies)
         {
-            Close(obj);
+            Close(ui);
         }
-        _openedUI.Clear();
-    }
 
-    //That UI is still there
-    public bool IsUIOpen(GameUIID id)
-    {
-        return _openedUI.Exists(go => go.GetComponent<GameUI>()?.ID == id);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        openedUI.Clear();
     }
 }
 
-public enum GameUIID
+public enum GameSceneID
 {
-    MainMenu,
-    Settings,
+    Cutscene
+}
+
+public enum UIPanelID
+{
     Pause,
-    Gate,
-    HUD,
-    Logo,
-    Title,
-    HomeMenu,
-    BlueScreen,
+    Settings,
+    Inventory,
+    DeckBuilder,
+    CraftAltar
 }
 
-public enum LevelUIID
+public enum UIMainID
 {
-    NoLevels,
-    Level1_Info,
-    Victory1,
-    Defeat1,
+    Start,
+    Options,
+    Guide,
+    Credits,
+    Exit
+}
+
+public enum UIPauseID
+{
+    Inventory,
+    DeckBuilder,
+    CraftAltar,
+    News
 }
