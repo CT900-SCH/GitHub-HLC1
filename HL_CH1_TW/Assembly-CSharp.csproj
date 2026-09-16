@@ -157,8 +157,10 @@
     <Compile Include="Assets\Script\Gameplay\MeleeEnemy.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerHPDisplay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cutscenes\StoryTextController.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Levels\PlayerLevelUpStats.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIPlayerSelection.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cutscenes\CutsceneManager.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\PanelUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\ProjectileWeaponBehaviour.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Maps\MapController.cs" />

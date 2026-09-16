@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of cutscenes\\storytextcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cutscenes\\storytextcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\uiscripts\\uimainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\uiscripts\\uimainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\uiscripts\\uihudworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\uiscripts\\uihudworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of uis\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of uis\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of uis\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of uis\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,8 +27,20 @@
       "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\panelui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\uiscripts\\uihudworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\uiscripts\\uihudworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of uis\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of uis\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 264,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\GameManager.cs",
@@ -61,15 +73,14 @@
               "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
               "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-15T10:20:24.528Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\GameUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\GameUI.cs",
@@ -78,12 +89,60 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-15T10:20:24.532Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Audio\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Audio\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Audio\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Audio\\AudioManager.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwFYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T03:58:49.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIMainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T10:20:24.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoryTextController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cutscenes\\StoryTextController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cutscenes\\StoryTextController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cutscenes\\StoryTextController.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cutscenes\\StoryTextController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T03:38:22.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "MainUI.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T03:38:19.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MainUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
@@ -91,31 +150,11 @@
               "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T10:20:48.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-16T03:38:19.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UIMainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T10:20:24.533Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 136,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "UIHudWorld.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIHudWorld.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\UIScripts\\UIHudWorld.cs",
@@ -123,8 +162,7 @@
               "RelativeToolTip": "Assets\\Script\\SYSTEM\\UIScripts\\UIHudWorld.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T10:20:24.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T10:20:24.538Z"
             },
             {
               "$type": "Document",
@@ -136,8 +174,7 @@
               "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\PanelUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T10:20:24.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T10:20:24.534Z"
             }
           ]
         }

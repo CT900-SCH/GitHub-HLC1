@@ -68,7 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanvasPrefab: {fileID: 5304164858825350330, guid: eb285cc8fd635fd428fb3d70cb7f66ab, type: 3}
   UITemplatePath: UI Prefab
-  _openedUI: []
+  openedUI: []
 --- !u!114 &967519245331776604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +95,9 @@ MonoBehaviour:
   - ID: 2
     Clips:
     - {fileID: 8300000, guid: 8f7b692ccca82cc4eb9d66fb73f8e10c, type: 3}
+  - ID: 3
+    Clips:
+    - {fileID: 8300000, guid: a8234e25e04bd444fb2c75c670192591, type: 3}
 --- !u!114 &-7697642453393746725
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -84,8 +84,7 @@ public enum SoundID
     ButtonClick,
     Confirm,
     Cancel,
-    VictorySound,
-    DefeatSound,
+    PageTurn,
 }
 
 [System.Serializable]

@@ -1146,8 +1146,8 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 130, y: 32}
-  m_Spacing: {x: 220, y: 68}
+  m_CellSize: {x: 120, y: 32}
+  m_Spacing: {x: 200, y: 68}
   m_Constraint: 1
   m_ConstraintCount: 5
 --- !u!1 &963194225
@@ -1987,7 +1987,7 @@ MonoBehaviour:
     useReplace: 0
   - button: {fileID: 1461788118}
     sound: 0
-    uiToOpen: 1
+    uiToOpen: 4
     useReplace: 0
 --- !u!1 &1776202027
 GameObject:

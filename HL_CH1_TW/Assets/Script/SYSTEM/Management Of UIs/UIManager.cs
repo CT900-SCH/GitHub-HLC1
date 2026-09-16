@@ -137,11 +137,8 @@ public enum GameSceneID
 
 public enum UIPanelID
 {
-    Pause,
-    Settings,
-    Inventory,
-    DeckBuilder,
-    CraftAltar
+    CharacterSelect,
+    HubWorld,
 }
 
 public enum UIMainID
@@ -150,7 +147,12 @@ public enum UIMainID
     Options,
     Guide,
     Credits,
-    Exit
+    Exit,
+
+    // In New Safe
+    CharacterSelect,
+    // In Old Safe
+    HubWorld,
 }
 
 public enum UIPauseID
