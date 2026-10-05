@@ -1,0 +1,7 @@
+Tanker:      +2 DEF & +1 Size
+Aggressor:   +2 ATK & -1 DEF
+Attacker:    +1 ATK & +1 DEF
+Ranger:      +3 Grid Range & -1 ATK & -1 DEF
+Rider:       +L Grid & +1 Size
+Caster:      +2 Grid Range & -1 ATK & Deals AoE Damage ATK
+Support:     +2 Grid Range & -1 DEF & nearby allies +1 DEF
