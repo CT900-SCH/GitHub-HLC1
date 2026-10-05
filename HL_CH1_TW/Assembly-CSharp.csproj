@@ -63,12 +63,15 @@
   <ItemGroup>
     <Compile Include="Assets\Script\SYSTEM\Management Of Resources\Resource Base\ResourceItem.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Dialogues\Dialogue.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\Z_DisplayCardContents\PlayerCardColorImage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\PlayerCardDataEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of JSONs\JSON Weapons\WeaponLoader.cs" />
     <Compile Include="Assets\Script\SceneStub.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Behaviours\GarlicBehaviour.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\Z_DisplayCardContents\HeroCardView.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\UnitCardDataEditor.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Interface\ISceneTargetProvider.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Script\JSONReader.cs" />
@@ -78,6 +81,7 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerGoldDisplay.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Game\CameraFollow.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIOpenScene.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\Z_DisplayCardContents\UnitCardColorImage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\WeaponController.cs" />
@@ -111,8 +115,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Interface\IEquippable.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UITutorialScreen.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\HeroCardIconLibrary.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\Z_DisplayCardContents\HeroCardColorImage.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIClosePanel.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Controllers\GarlicController.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\Z_DisplayCardContents\UnitCardView.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Game\Player.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Dialogues\DialogueSet.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\WeaponItem.cs" />
@@ -154,6 +161,7 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Audio\AudioManager.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\WeaponScriptableObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\HeroCardDataEditor.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Maps\ChunkTrigger.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\WeaponDisplay.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Behaviours\KnifeBehaviour.cs" />
@@ -171,7 +179,9 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\PanelUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\ProjectileWeaponBehaviour.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Maps\MapController.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\WeaponBoxesFollowText.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerItemDisplay.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Cards\UnitCardIconLibrary.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Controllers\KnifeController.cs" />
   </ItemGroup>

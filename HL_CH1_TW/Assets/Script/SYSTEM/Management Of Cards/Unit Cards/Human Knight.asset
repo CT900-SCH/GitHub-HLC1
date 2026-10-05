@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde49ebcbb5903a4faafd4b333d9725f, type: 3}
   m_Name: Human Knight
   m_EditorClassIdentifier: 
-  cardID: 0
+  cardID: HL-TWR-3002
   illustratorName: Cello Tan
   cardColor: 1
+  cardArtwork: {fileID: -1332965258783305666, guid: c93b6ddd8ad675448960224638cbd868, type: 3}
+  expansionIcon: {fileID: -5206853160465455904, guid: e39a3994b0fe77c46ba032dfdf0c6c5e, type: 3}
   cardCost: 4
   role: 1
   size: 1
@@ -23,8 +25,19 @@ MonoBehaviour:
   defense: 5
   title: Human Knight
   race: 0
-  characterClass: 3
-  weaponClass: 1
+  characterClass: 4
+  weaponClass: 0
+  weaponClassLevel: 2
+  weaponClassIconAmount: 1
+  selectedWeaponBoxIcons: 0000000000000000
+  roleIcon: {fileID: 6677291236158490320, guid: c6e6c8275b457f8439eb7cd2a7a20b25, type: 3}
+  classIcon: {fileID: -5711848221618334454, guid: 29d35882b6bcff14e8a1684f7ec6e3c5, type: 3}
+  weaponClassLevelBoxSprites:
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  weaponClassIconSprites:
+  - {fileID: 2099816680768641194, guid: 889675413be980b4a9bed287a68b087c, type: 3}
+  - {fileID: 0}
   description: This Card has no effects.
   flavorText: 'Let''s do this!
 

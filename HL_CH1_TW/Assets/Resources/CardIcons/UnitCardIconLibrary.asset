@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef0b805c3cdf73479ee86ac48736acc, type: 3}
+  m_Name: UnitCardIconLibrary
+  m_EditorClassIdentifier: 
+  vanguardIcon: {fileID: -2180640340703173285, guid: 7e6067545c891dd45bb0fe98f8dff4c5, type: 3}
+  tankIcon: {fileID: 6677291236158490320, guid: c6e6c8275b457f8439eb7cd2a7a20b25, type: 3}
+  rangerRoleIcon: {fileID: 447582902519592399, guid: a1711d220e4b4ac46b15084a62b3a1d5, type: 3}
+  gunnerClassIcon: {fileID: 975986631, guid: 715bb61ad6749a843b3c53fd577b4109, type: 3}
+  fighterClassIcon: {fileID: -7275188651862321258, guid: b495f9fdd990b50408746f57e9c1ec18, type: 3}
+  rangerClassIcon: {fileID: 500804208115933777, guid: fa6d5ef6f63593b4ebc28ad036325c5c, type: 3}
+  barbarianClassIcon: {fileID: 4673128588958589295, guid: d0c0b38a1038c1d4eb01adf0adf87efc, type: 3}
+  knightClassIcon: {fileID: -5711848221618334454, guid: 29d35882b6bcff14e8a1684f7ec6e3c5, type: 3}
+  mageClassIcon: {fileID: 1377322663251520538, guid: f340879c7bb19e94ab6377179c87b48c, type: 3}
+  priestClassIcon: {fileID: -4749681873034518491, guid: 80e3b7060be3bb2469b610033a0ab501, type: 3}
+  mechClassIcon: {fileID: -1776361881, guid: b8ac129a8a764844e915be81f7dc8baf, type: 3}
+  swordsmanIcon: {fileID: 2099816680768641194, guid: 889675413be980b4a9bed287a68b087c, type: 3}
+  axemanIcon: {fileID: -6943884304005601164, guid: 8d76ccb2d081e6c4ab0f8a0615fdad53, type: 3}
+  spearmanIcon: {fileID: -4417669752701893949, guid: b7f841cf0892cd04ba64fba5f8cfe784, type: 3}
+  marksmanIcon: {fileID: -8339999545753408722, guid: 990221ebd03d61b44a135e759dc49a1e, type: 3}
+  archerIcon: {fileID: 909688383747400512, guid: a04a31e8158b73f478a5798f62fcb311, type: 3}
+  fighterWeaponIcon: {fileID: 6011996308358292164, guid: d9051596f619e6b4e946779d03bfbfc7, type: 3}
+  assassinIcon: {fileID: -6344501626895428711, guid: f6cae7a40300e4540b0abd8b52524cd6, type: 3}
+  whiteLevelBox: {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}

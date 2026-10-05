@@ -15,9 +15,11 @@ MonoBehaviour:
   cardID: HL-TWR-1003
   illustratorName: Cello Tan
   cardColor: 0
-  cardCost: 3
   role: 0
-  size: 1
+  cardArtwork: {fileID: -4467844441076630845, guid: b1d139732e2e5ff42993907d56f70f15, type: 3}
+  expansionIcon: {fileID: 909997838751336973, guid: 94ec1b4195754974a832bc2a548264ea, type: 3}
+  cardCost: 3
+  size: 2
   moveSpeed: 3
   attack: 3
   defense: 2
@@ -25,21 +27,22 @@ MonoBehaviour:
   race: 0
   characterName: 1
   characterClass: 1
-  weaponClass: 1
-  weaponClassLevel: 5
+  weaponClass: 5
+  weaponClassLevel: 4
+  weaponClassIconAmount: 2
+  selectedWeaponBoxIcons: 05000000050000000000000000000000
+  roleIcon: {fileID: -2180640340703173285, guid: 7e6067545c891dd45bb0fe98f8dff4c5, type: 3}
+  classIcon: {fileID: -7275188651862321258, guid: b495f9fdd990b50408746f57e9c1ec18, type: 3}
   weaponClassLevelBoxSprites:
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
   weaponClassIconSprites:
+  - {fileID: 6011996308358292164, guid: d9051596f619e6b4e946779d03bfbfc7, type: 3}
+  - {fileID: 6011996308358292164, guid: d9051596f619e6b4e946779d03bfbfc7, type: 3}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  description: This Card has no effects.
-  flavorText: 'Bring it on!
-
-    - Tanya The Survivor'
+  description: For each Punch Skill or Kick Skills this character used during your
+    opponent's turn. Charge 1 Mana from the top card of your deck to the Mana Zone.
+  flavorText: Bring it on!      - Tanya The Survivor

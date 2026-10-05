@@ -25,7 +25,12 @@ public enum HeroCardClass
 {
     Gunner,
     Fighter,
-    Ranger
+    Ranger,
+    Barbarian = 3,
+    Knight = 4,
+    Mage = 5,
+    Priest = 6,
+    Mech = 7
 }
 
 public enum HeroWeaponClass
@@ -36,7 +41,7 @@ public enum HeroWeaponClass
     Marksman,
     Archer,
     Fighter,
-    Rogue,
+    Assassin
 }
 
 public enum HeroWeaponClassLevel
@@ -44,8 +49,16 @@ public enum HeroWeaponClassLevel
     Level1 = 1,
     Level2 = 2,
     Level3 = 3,
-    Level4 = 4,
-    Level5 = 5
+    Level4 = 4
+}
+
+public enum HeroWeaponClassIconAmount
+{
+    None = 0,
+    One = 1,
+    Two = 2,
+    Three = 3,
+    Four = 4
 }
 
 [CreateAssetMenu(
@@ -57,15 +70,19 @@ public class HeroCardData : ScriptableObject
     [Header("Card Information")]
 
     public string cardID;
-
     public string illustratorName;
-
     public CardColor cardColor;
+    public HeroCardRole role;
+
+    [Header("Card Images")]
+
+    public Sprite cardArtwork;
+    public Sprite expansionIcon;
 
     [Header("Battlefield Information")]
-    public int cardCost;
 
-    public HeroCardRole role;
+    [Min(0)]
+    public int cardCost;
 
     [Min(0)]
     public int size;
@@ -82,24 +99,35 @@ public class HeroCardData : ScriptableObject
     [Header("Character Identity")]
 
     public string title;
-
     public HeroCardRace race;
-
     public HeroCardName characterName;
-
     public HeroCardClass characterClass;
 
     [Header("Weapon Information")]
 
     public HeroWeaponClass weaponClass;
 
+    [Tooltip("Total number of white weapon boxes.")]
     public HeroWeaponClassLevel weaponClassLevel =
         HeroWeaponClassLevel.Level1;
 
-    [Tooltip("The white boxes representing the Weapon Class Level.")]
+    [Tooltip("How many boxes contain weapon icons.")]
+    public HeroWeaponClassIconAmount weaponClassIconAmount =
+        HeroWeaponClassIconAmount.None;
+
+    [HideInInspector]
+    public HeroWeaponClass[] selectedWeaponBoxIcons;
+
+    [HideInInspector]
+    public Sprite roleIcon;
+
+    [HideInInspector]
+    public Sprite classIcon;
+
+    [HideInInspector]
     public Sprite[] weaponClassLevelBoxSprites;
 
-    [Tooltip("The weapon symbols placed over the white boxes.")]
+    [HideInInspector]
     public Sprite[] weaponClassIconSprites;
 
     [Header("Card Writing")]
@@ -110,38 +138,41 @@ public class HeroCardData : ScriptableObject
     [TextArea(3, 8)]
     public string flavorText;
 
-    private void OnValidate()
+    public void EnsureWeaponArrays()
     {
-        int requiredBoxes = (int)weaponClassLevel;
-
-        ResizeSpriteArray(
-            ref weaponClassLevelBoxSprites,
-            requiredBoxes
+        int totalBoxes = Mathf.Clamp(
+            (int)weaponClassLevel,
+            1,
+            4
         );
 
-        ResizeSpriteArray(
+        int iconBoxes = Mathf.Clamp(
+            (int)weaponClassIconAmount,
+            0,
+            totalBoxes
+        );
+
+        weaponClassIconAmount =
+            (HeroWeaponClassIconAmount)iconBoxes;
+
+        Array.Resize(
+            ref selectedWeaponBoxIcons,
+            totalBoxes
+        );
+
+        Array.Resize(
+            ref weaponClassLevelBoxSprites,
+            totalBoxes
+        );
+
+        Array.Resize(
             ref weaponClassIconSprites,
-            requiredBoxes
+            totalBoxes
         );
     }
 
-    private void ResizeSpriteArray(
-        ref Sprite[] spriteArray,
-        int requiredSize
-    )
+    private void OnValidate()
     {
-        if (spriteArray == null)
-        {
-            spriteArray = new Sprite[requiredSize];
-            return;
-        }
-
-        if (spriteArray.Length != requiredSize)
-        {
-            Array.Resize(
-                ref spriteArray,
-                requiredSize
-            );
-        }
+        EnsureWeaponArrays();
     }
 }

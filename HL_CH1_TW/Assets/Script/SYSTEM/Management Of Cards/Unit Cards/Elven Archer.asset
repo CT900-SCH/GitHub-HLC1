@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde49ebcbb5903a4faafd4b333d9725f, type: 3}
   m_Name: Elven Archer
   m_EditorClassIdentifier: 
-  cardID: 0
+  cardID: HL-TWR-3001
   illustratorName: Cello Tan
   cardColor: 2
+  cardArtwork: {fileID: -8297812409625600975, guid: 55bc4468f6379f145a46571aec6b11f0, type: 3}
+  expansionIcon: {fileID: -5206853160465455904, guid: e39a3994b0fe77c46ba032dfdf0c6c5e, type: 3}
   cardCost: 2
   role: 2
   size: 1
@@ -24,7 +26,18 @@ MonoBehaviour:
   title: Elven Archer
   race: 1
   characterClass: 2
-  weaponClass: 1
+  weaponClass: 4
+  weaponClassLevel: 2
+  weaponClassIconAmount: 1
+  selectedWeaponBoxIcons: 0400000000000000
+  roleIcon: {fileID: 447582902519592399, guid: a1711d220e4b4ac46b15084a62b3a1d5, type: 3}
+  classIcon: {fileID: 500804208115933777, guid: fa6d5ef6f63593b4ebc28ad036325c5c, type: 3}
+  weaponClassLevelBoxSprites:
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  weaponClassIconSprites:
+  - {fileID: 909688383747400512, guid: a04a31e8158b73f478a5798f62fcb311, type: 3}
+  - {fileID: 0}
   description: This Card has no effects.
   flavorText: 'It''s my turn!
 

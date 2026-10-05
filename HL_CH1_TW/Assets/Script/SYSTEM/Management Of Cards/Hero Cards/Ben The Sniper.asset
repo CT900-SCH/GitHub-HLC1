@@ -15,31 +15,33 @@ MonoBehaviour:
   cardID: HL-TWR-1002
   illustratorName: Cello Tan
   cardColor: 2
-  cardCost: 3
   role: 2
+  cardArtwork: {fileID: -3207923285700112038, guid: 5612b742737b58548a7856e4edbce890, type: 3}
+  expansionIcon: {fileID: 909997838751336973, guid: 94ec1b4195754974a832bc2a548264ea, type: 3}
+  cardCost: 3
   size: 2
   moveSpeed: 1
   attack: 3
   defense: 2
-  title: Ben The Withering White
+  title: Withering White Ben
   race: 0
   characterName: 0
   characterClass: 0
-  weaponClass: 0
-  weaponClassLevel: 5
+  weaponClass: 3
+  weaponClassLevel: 4
+  weaponClassIconAmount: 2
+  selectedWeaponBoxIcons: 03000000030000000000000000000000
+  roleIcon: {fileID: 447582902519592399, guid: a1711d220e4b4ac46b15084a62b3a1d5, type: 3}
+  classIcon: {fileID: 975986631, guid: 715bb61ad6749a843b3c53fd577b4109, type: 3}
   weaponClassLevelBoxSprites:
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
-  - {fileID: 21300000, guid: 15c95e47c92a2994eabdd543e359dac3, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
   weaponClassIconSprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -8339999545753408722, guid: 990221ebd03d61b44a135e759dc49a1e, type: 3}
+  - {fileID: -8339999545753408722, guid: 990221ebd03d61b44a135e759dc49a1e, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   description: This Card has no effects.
-  flavorText: 'They won''t see me coming.
-
-    - Matthew The Theif'
+  flavorText: It's been awhile old friend.         - Ben The Withering White

@@ -16,7 +16,7 @@ MonoBehaviour:
   illustratorName: Cello Tan
   cardColor: 1
   role: 2
-  cardArtwork: {fileID: 5937011679228722999, guid: beca778383cb6964ea8389891892f17d, type: 3}
+  cardArtwork: {fileID: -8095742299649589942, guid: 5f0413c2d1f3d5243ace142a5dda8698, type: 3}
   expansionIcon: {fileID: -5206853160465455904, guid: e39a3994b0fe77c46ba032dfdf0c6c5e, type: 3}
   carry: 3
   moveSpeed: 2
@@ -27,18 +27,20 @@ MonoBehaviour:
   characterName: 0
   characterClass: 6
   weaponClass: 3
-  weaponClassLevel: 3
+  weaponClassLevel: 4
   weaponClassIconAmount: 2
-  selectedWeaponBoxIcons: 030000000600000005000000
+  selectedWeaponBoxIcons: 03000000060000000500000000000000
   roleIcon: {fileID: 447582902519592399, guid: a1711d220e4b4ac46b15084a62b3a1d5, type: 3}
   classIcon: {fileID: 975986631, guid: 715bb61ad6749a843b3c53fd577b4109, type: 3}
   weaponClassLevelBoxSprites:
   - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
   - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
   - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
   weaponClassIconSprites:
   - {fileID: -8339999545753408722, guid: 990221ebd03d61b44a135e759dc49a1e, type: 3}
   - {fileID: -6344501626895428711, guid: f6cae7a40300e4540b0abd8b52524cd6, type: 3}
+  - {fileID: 0}
   - {fileID: 0}
   description: This Card has no effects.
   flavorText: They will pay soon enough.      - Rusty The Great

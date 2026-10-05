@@ -10,6 +10,7 @@ public class PlayerCardView : MonoBehaviour
 
     [SerializeField]
     private PlayerCardData cardData;
+    public PlayerCardData CardData => cardData;
 
     [Header("Card Images")]
 
