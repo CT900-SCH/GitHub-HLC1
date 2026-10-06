@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 2976451208572880777}
   - component: {fileID: 8191706481155453990}
   - component: {fileID: 8919678300685985880}
+  - component: {fileID: 3101747329984993980}
   m_Layer: 5
   m_Name: Daily Button
   m_TagString: Untagged
@@ -259,6 +260,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3101747329984993980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435486943283356035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf68f7dbf837e4689b84f108404cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 8919678300685985880}
+  putSceneName: 
 --- !u!1 &1844772018247037273
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,6 +790,7 @@ GameObject:
   - component: {fileID: 3227489287745240559}
   - component: {fileID: 532965264567496688}
   - component: {fileID: 7412341718574163252}
+  - component: {fileID: 6202706089318233840}
   m_Layer: 5
   m_Name: Craft Button
   m_TagString: Untagged
@@ -884,6 +900,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6202706089318233840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2955889052102936806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf68f7dbf837e4689b84f108404cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 7412341718574163252}
+  putSceneName: Craft Lab
 --- !u!1 &3512067847927630625
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +926,7 @@ GameObject:
   - component: {fileID: 4390157913710094563}
   - component: {fileID: 4862772352339414292}
   - component: {fileID: 7472920699071136173}
+  - component: {fileID: 5395749304254141670}
   m_Layer: 5
   m_Name: Achievements Button
   m_TagString: Untagged
@@ -1005,6 +1036,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5395749304254141670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512067847927630625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf68f7dbf837e4689b84f108404cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 7472920699071136173}
+  putSceneName: 
 --- !u!1 &4046988270209249513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,6 +1334,7 @@ GameObject:
   - component: {fileID: 1046802680901469452}
   - component: {fileID: 6947684738784082296}
   - component: {fileID: 1978440626954474563}
+  - component: {fileID: 7954157886032367000}
   m_Layer: 5
   m_Name: Avatar Button
   m_TagString: Untagged
@@ -1398,6 +1444,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7954157886032367000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651367420634834870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf68f7dbf837e4689b84f108404cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 1978440626954474563}
+  putSceneName: 
 --- !u!1 &5484180484381195910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,6 +1470,7 @@ GameObject:
   - component: {fileID: 4133983256436215293}
   - component: {fileID: 8134744741961423002}
   - component: {fileID: 8384000521745607582}
+  - component: {fileID: 8726122396341593000}
   m_Layer: 5
   m_Name: Deckbuilder Button
   m_TagString: Untagged
@@ -1519,6 +1580,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8726122396341593000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5484180484381195910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf68f7dbf837e4689b84f108404cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 8384000521745607582}
+  putSceneName: Deckbuilder
 --- !u!1 &6151508340079582535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,6 +1742,7 @@ GameObject:
   - component: {fileID: 6215232946964783600}
   - component: {fileID: 90675471987967389}
   - component: {fileID: 5815650489811210441}
+  - component: {fileID: 8664362909061194916}
   m_Layer: 5
   m_Name: PvP Button
   m_TagString: Untagged
@@ -1776,6 +1852,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8664362909061194916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6185703585000357736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf68f7dbf837e4689b84f108404cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 5815650489811210441}
+  putSceneName: 
 --- !u!1 &6240462153276362267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,7 +1877,7 @@ GameObject:
   - component: {fileID: 1091835584290239848}
   - component: {fileID: 6395856907341452973}
   m_Layer: 5
-  m_Name: Grid Layout_4X2
+  m_Name: UI_PauseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2340,6 +2430,7 @@ GameObject:
   - component: {fileID: 3297919847710662725}
   - component: {fileID: 1888166694741448771}
   - component: {fileID: 6161296930209514263}
+  - component: {fileID: 10063919692757974}
   m_Layer: 5
   m_Name: Inventory Button
   m_TagString: Untagged
@@ -2449,6 +2540,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &10063919692757974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8967870853505016156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf68f7dbf837e4689b84f108404cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 6161296930209514263}
+  putSceneName: Inventory
 --- !u!1 &9037198180524013295
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,6 +2702,7 @@ GameObject:
   - component: {fileID: 5659254822337630545}
   - component: {fileID: 9143123261031458380}
   - component: {fileID: 6655335503180829155}
+  - component: {fileID: 8752989754971318132}
   m_Layer: 5
   m_Name: News Button
   m_TagString: Untagged
@@ -2706,3 +2812,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8752989754971318132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9085818720708604500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf68f7dbf837e4689b84f108404cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnPlay: {fileID: 6655335503180829155}
+  putSceneName: 

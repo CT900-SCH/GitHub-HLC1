@@ -13,6 +13,9 @@ public class UIManager : SimpleSingleton<UIManager>
     private Dictionary<UIMainID, GameObject> mainUITemplates =
         new Dictionary<UIMainID, GameObject>();
 
+    private Dictionary<UIPauseID, GameObject> pauseUITemplates =
+        new Dictionary<UIPauseID, GameObject>();
+
     private RectTransform mainCanvas;
 
     public List<GameObject> openedUI = new List<GameObject>();
@@ -48,18 +51,6 @@ public class UIManager : SimpleSingleton<UIManager>
         }
     }
 
-    // Open a PanelUI.
-    public GameObject Open(UIPanelID id)
-    {
-        if (panelTemplates.TryGetValue(id, out GameObject template))
-        {
-            return CreateUI(template);
-        }
-
-        Debug.LogWarning("Cannot find PanelUI: " + id);
-        return null;
-    }
-
     // Open a MainUI.
     public GameObject Open(UIMainID id)
     {
@@ -72,13 +63,6 @@ public class UIManager : SimpleSingleton<UIManager>
         return null;
     }
 
-    // Replace everything with a PanelUI.
-    public GameObject OpenReplace(UIPanelID id)
-    {
-        CloseAll();
-        return Open(id);
-    }
-
     // Replace everything with a MainUI.
     public GameObject OpenReplace(UIMainID id)
     {
@@ -86,14 +70,38 @@ public class UIManager : SimpleSingleton<UIManager>
         return Open(id);
     }
 
-    private GameObject CreateUI(GameObject template)
+    // Is UI Open MainUI?
+    public bool IsUIOpen(UIMainID id)
     {
-        GameObject newUI = Instantiate(template, mainCanvas);
-        openedUI.Add(newUI);
-
-        return newUI;
+        return openedUI.Exists(ui =>
+            ui != null &&
+            ui.GetComponent<MainUI>()?.ID == id);
     }
 
+
+
+
+
+    // Open a PanelUI.
+    public GameObject Open(UIPanelID id)
+    {
+        if (panelTemplates.TryGetValue(id, out GameObject template))
+        {
+            return CreateUI(template);
+        }
+
+        Debug.LogWarning("Cannot find PanelUI: " + id);
+        return null;
+    }
+
+    // Replace everything with a PanelUI.
+    public GameObject OpenReplace(UIPanelID id)
+    {
+        CloseAll();
+        return Open(id);
+    }
+
+    // Is UI Open PanelUI?
     public bool IsUIOpen(UIPanelID id)
     {
         return openedUI.Exists(ui =>
@@ -101,11 +109,47 @@ public class UIManager : SimpleSingleton<UIManager>
             ui.GetComponent<PanelUI>()?.ID == id);
     }
 
-    public bool IsUIOpen(UIMainID id)
+
+
+
+
+    // Open a PauseUI.
+    public GameObject Open(UIPauseID id)
+    {
+        if (pauseUITemplates.TryGetValue(id, out GameObject template))
+        {
+            return CreateUI(template);
+        }
+
+        Debug.LogWarning("Cannot find PauseUI: " + id);
+        return null;
+    }
+
+    // Replace everything with a PauseUI.
+    public GameObject OpenReplace(UIPauseID id)
+    {
+        CloseAll();
+        return Open(id);
+    }
+
+    // Is UI Open PauseUI?
+    public bool IsUIOpen(UIPauseID id)
     {
         return openedUI.Exists(ui =>
             ui != null &&
-            ui.GetComponent<MainUI>()?.ID == id);
+            ui.GetComponent<PauseUI>()?.ID == id);
+    }
+
+
+
+
+
+    private GameObject CreateUI(GameObject template)
+    {
+        GameObject newUI = Instantiate(template, mainCanvas);
+        openedUI.Add(newUI);
+
+        return newUI;
     }
 
     public void Close(GameObject ui)
@@ -137,8 +181,9 @@ public enum GameSceneID
 
 public enum UIPanelID
 {
-    CharacterSelect,
-    HubWorld,
+    PauseMenu,
+    EnterRun,
+    NA,
 }
 
 public enum UIMainID

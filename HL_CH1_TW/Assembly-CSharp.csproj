@@ -67,6 +67,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\PlayerCardDataEditor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Scenes\SceneClick.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of JSONs\JSON Weapons\WeaponLoader.cs" />
     <Compile Include="Assets\Script\SceneStub.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Behaviours\GarlicBehaviour.cs" />
@@ -80,14 +81,15 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\MeleeWeaponBehaviour.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerGoldDisplay.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Game\CameraFollow.cs" />
-    <Compile Include="Assets\Script\SYSTEM\UIScripts\UIOpenScene.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\Z_DisplayCardContents\UnitCardColorImage.cs" />
+    <Compile Include="Assets\Script\SYSTEM\UIScripts\UIOpenScene.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\WeaponController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerKillDisplay.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of UIs\PauseUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Dialogues\DialogueManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Maps\PropRandomizer.cs" />
@@ -99,10 +101,11 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Levels\GOLDEarned.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Script\SYSTEM\UIScripts\UIPauseMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\Script\SYSTEM\UIScripts\UIHudWorld.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerEXPDisplay.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Scenes\ScenePortal.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Script\Gameplay\RangedEnemyQuickFire.cs" />
     <Compile Include="Assets\Script\DontDie.cs" />
@@ -123,6 +126,7 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Game\Player.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Dialogues\DialogueSet.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\WeaponItem.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Run\RandomCardRewardButton.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Enemies\Enemy.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Interface\IDamagable.cs" />
     <Compile Include="Assets\Script\Gameplay\Bullet.cs" />
@@ -130,6 +134,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Art\Characters\Enemies\Bandits - Pixel Art\Demo\Bandit.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of JSONs\JSON Skills\SkillLoader.cs" />
+    <Compile Include="Assets\Script\SYSTEM\UIScripts\UIHubWorld.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\UnitCardData.cs" />
     <Compile Include="Assets\Script\Gameplay\EnemySpawnManager.cs" />
@@ -178,6 +183,7 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Cutscenes\CutsceneManager.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\PanelUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\ProjectileWeaponBehaviour.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\CardStorage.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Maps\MapController.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\WeaponBoxesFollowText.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerItemDisplay.cs" />

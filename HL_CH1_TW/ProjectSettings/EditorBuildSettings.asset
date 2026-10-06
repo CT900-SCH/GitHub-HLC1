@@ -15,7 +15,31 @@ EditorBuildSettings:
     path: Assets/Scenes/CUTSCENE.unity
     guid: 30d6d027c8002ba409f0d9342bb84770
   - enabled: 1
-    path: Assets/Scenes/Main Scene.unity
+    path: Assets/Scenes/HUB WORLD.unity
     guid: fbf1b674f6780a94ba6bdd2107e33c88
+  - enabled: 1
+    path: Assets/Scenes/Pause Menu/Achievements.unity
+    guid: bee14b3d328fe714dbc9cd076f0de155
+  - enabled: 1
+    path: Assets/Scenes/Pause Menu/Avatar.unity
+    guid: 55eecc3d0b662af4fa4ea06918733c74
+  - enabled: 1
+    path: Assets/Scenes/Pause Menu/Craft Alter.unity
+    guid: 2307d87a21d75c2438d27c1a1a78c463
+  - enabled: 1
+    path: Assets/Scenes/Pause Menu/Daily Shop.unity
+    guid: af2c31d64c49fdc4c83944349bfc3bee
+  - enabled: 1
+    path: Assets/Scenes/Pause Menu/Deckbuilder.unity
+    guid: cff70817a5d3ae843a0a9faeabdd9187
+  - enabled: 1
+    path: Assets/Scenes/Pause Menu/Inventory.unity
+    guid: ebe095c80e7e75a4cb6b92873703f943
+  - enabled: 1
+    path: Assets/Scenes/Pause Menu/News.unity
+    guid: c2cedd9293188194eb353716dd0f5679
+  - enabled: 1
+    path: Assets/Scenes/Pause Menu/PVP Arena.unity
+    guid: e71ddbebfbafbc64e8d55bb7af6b4aeb
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

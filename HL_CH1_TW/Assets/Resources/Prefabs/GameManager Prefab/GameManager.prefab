@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 1524709720225676267}
   - component: {fileID: 5337648911101722060}
   - component: {fileID: 967519245331776604}
-  - component: {fileID: -7697642453393746725}
-  - component: {fileID: 3445917890506453199}
-  - component: {fileID: 270899907118722986}
+  - component: {fileID: -1261173786435868005}
   - component: {fileID: 4816475594746648858}
   m_Layer: 0
   m_Name: GameManager
@@ -98,7 +96,7 @@ MonoBehaviour:
   - ID: 3
     Clips:
     - {fileID: 8300000, guid: a8234e25e04bd444fb2c75c670192591, type: 3}
---- !u!114 &-7697642453393746725
+--- !u!114 &-1261173786435868005
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,39 +105,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5856941512115400321}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2be1e16ea52872f44acfc8188c42d710, type: 3}
+  m_Script: {fileID: 11500000, guid: 689249bb25f681c4ca174bf2da3595df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myClassList:
-    classes: []
---- !u!114 &3445917890506453199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856941512115400321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0e87c81981e74479b6ad3b85463cc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myWeaponList:
-    weapons: []
---- !u!114 &270899907118722986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856941512115400321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cc2a3eb5000ed6478cc4fe3fe2f771a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mySkillList:
-    skills: []
+  maximumCapacity: 20
+  allowDuplicatePlayerCards: 0
+  allowDuplicateHeroCards: 0
+  allowDuplicateUnitCards: 1
+  playerCards: []
+  heroCards: []
+  unitCards: []
 --- !u!114 &4816475594746648858
 MonoBehaviour:
   m_ObjectHideFlags: 0
