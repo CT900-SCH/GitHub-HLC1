@@ -15,7 +15,7 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64429
+55004
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40092]  Target information:
+Player connection [9196]  Target information:
 
-Player connection [40092]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 1196343216 [EditorId] 1196343216 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9196]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 4261063781 [EditorId] 4261063781 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [40092] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [40092] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9196] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9196] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.30 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 2.55 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002415 seconds.
-- Loaded All Assemblies, in  0.311 seconds
+Registered in 0.003805 seconds.
+- Loaded All Assemblies, in  0.349 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 212 ms
+Android Extension - Scanning For ADB Devices 267 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.496 seconds
-Domain Reload Profiling: 805ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.668 seconds
+Domain Reload Profiling: 1015ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (102ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (119ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (109ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (116ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (496ms)
+	FinalizeReload (668ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (470ms)
+		SetupLoadedEditorAssemblies (641ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (281ms)
+			InitializePlatformSupportModulesInManaged (340ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (115ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (26ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,57 +139,93 @@ Domain Reload Profiling: 805ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.816 seconds
-Refreshing native plugins compatible for Editor in 2.19 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.881 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 8 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.671 seconds
-Domain Reload Profiling: 1483ms
-	BeginReloadAssembly (286ms)
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1716ms
+	BeginReloadAssembly (298ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
+		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (458ms)
-		LoadAssemblies (325ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (503ms)
+		LoadAssemblies (361ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (134ms)
-			BuildScriptInfoCaches (55ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (144ms)
+			BuildScriptInfoCaches (56ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (671ms)
+	FinalizeReload (839ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (515ms)
+		SetupLoadedEditorAssemblies (663ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (357ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (481ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.86 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4784 unused Assets / (1.5 MB). Loaded Objects now: 5386.
-Memory consumption went from 128.2 MB to 126.7 MB.
-Total: 6.120900 ms (FindLiveObjects: 0.430300 ms CreateObjectMapping: 0.328400 ms MarkObjects: 4.103700 ms  DeleteObjects: 1.257200 ms)
+Unloading 4784 unused Assets / (1.8 MB). Loaded Objects now: 5386.
+Memory consumption went from 130.1 MB to 128.3 MB.
+Total: 6.702500 ms (FindLiveObjects: 0.597000 ms CreateObjectMapping: 0.331500 ms MarkObjects: 4.340100 ms  DeleteObjects: 1.432300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 251188.599113 seconds.
-  path: Assets/Resources/Prefabs/PauseManager.prefab
-  artifactKey: Guid(02ae7149617167c46829a095f467fb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/PauseManager.prefab using Guid(02ae7149617167c46829a095f467fb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5801198e5ef0d375672130e4f2dee7ed') in 0.061251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+  Time since last request: 300788.880337 seconds.
+  path: Assets/Art/Button UI/Classic_RPG_GUI/Icons/Honor.png
+  artifactKey: Guid(aa6156860ed77af4b828c1a7e9388f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Button UI/Classic_RPG_GUI/Icons/Honor.png using Guid(aa6156860ed77af4b828c1a7e9388f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '527ae13eb463f7a5dcbbf1583b6db43a') in 0.0779286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Image/Background/HUD_World/HUD_World_Background.png
+  artifactKey: Guid(1e3ad077a5a059947a42cb7547c0395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Background/HUD_World/HUD_World_Background.png using Guid(1e3ad077a5a059947a42cb7547c0395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef240832c42232d19af94fe11a40bed7') in 0.0174942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Image/Background/HUD_World/HUD_World_Midground.png
+  artifactKey: Guid(86616c7ad5570574f8b986aef7649e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Background/HUD_World/HUD_World_Midground.png using Guid(86616c7ad5570574f8b986aef7649e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18b5fa9275117f7c3c8a349109113b65') in 0.0161577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Weapons/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Iron Shield.png
+  artifactKey: Guid(256205b9c6ca12c45ab7762da8a65631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Weapons/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Iron Shield.png using Guid(256205b9c6ca12c45ab7762da8a65631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf0bc7b6e2c70838cbc136d97a85fff') in 0.0106538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Weapons/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Armor.png
+  artifactKey: Guid(567fdd2e557fefc478f8aaa7ae56fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Weapons/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Armor.png using Guid(567fdd2e557fefc478f8aaa7ae56fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73056bc9eee7329dcbe3b9d42dc8cb78') in 0.0112932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

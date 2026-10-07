@@ -104,6 +104,7 @@
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIPauseMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\InventoryCardListItem.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerEXPDisplay.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Scenes\ScenePortal.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -149,6 +150,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\CardColor.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\InventoryCardListController.cs" />
     <Compile Include="Assets\Art\Characters\Enemies\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of JSONs\JSON Player Characters\CharacterLoader.cs" />
@@ -193,23 +195,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Unity Asset Store\UI\kenney_game-icons\Spritesheet\sheet_white1x.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Art\Tile Palettes\Pixel Art Rock Pile Pack\Sprites\Pixel Art Rock Pile Pack\Pixel Art Rock Pile Pack - Read Me.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
     <None Include="Assets\Art\Art_CardIcons\ROLE_Icons\Z_READ ME.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
-    <None Include="Assets\Image\UI\Modern GDR - Free icons pack\01_Demo\Font\Ibarra_OFL.txt" />
+    <None Include="Assets\Unity Asset Store\UI\Modern GDR - Free icons pack\01_Demo\Font\Ibarra_OFL.txt" />
     <None Include="Assets\Resources\skills.txt" />
     <None Include="Assets\Enemy.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Unity - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\Art\Button UI\Keyboard &amp; Mouse\keyboard-&amp;-mouse_sheet_double.xml" />
+    <None Include="Assets\Unity Asset Store\UI\Keyboard &amp; Mouse\keyboard-&amp;-mouse_sheet_double.xml" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Unity Asset Store\UI\kenney_game-icons\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Unity Asset Store\UI\kenney_game-icons\Spritesheet\sheet_black1x.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Art\Tile Palettes\Pixel Art Bush Pack\Pixel Art Bush Pack - Read Me.txt" />
@@ -224,11 +229,13 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\A_Font_HLCH1_TW\archivo-black\OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Unity Asset Store\UI\kenney_game-icons\Spritesheet\sheet_black2x.xml" />
+    <None Include="Assets\Unity Asset Store\UI\kenney_game-icons\Spritesheet\sheet_white2x.xml" />
     <None Include="Assets\Resources\weapons.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\A_Font_HLCH1_TW\barlow-condensed\OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\Image\UI\Modern GDR - Free icons pack\01_Demo\Font\Jost_OFL.txt" />
+    <None Include="Assets\Unity Asset Store\UI\Modern GDR - Free icons pack\01_Demo\Font\Jost_OFL.txt" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\A_Font_HLCH1_TW\roboto\NOTICE.txt" />

@@ -1,0 +1,543 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 65395 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+55004
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
+C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28244]  Target information:
+
+Player connection [28244]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 1258424755 [EditorId] 1258424755 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28244] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28244] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.94 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002713 seconds.
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 210 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 801ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (106ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (280ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.804 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 8 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1503ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (702ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4784 unused Assets / (1.5 MB). Loaded Objects now: 5386.
+Memory consumption went from 128.2 MB to 126.7 MB.
+Total: 5.959400 ms (FindLiveObjects: 0.444400 ms CreateObjectMapping: 0.345300 ms MarkObjects: 4.032300 ms  DeleteObjects: 1.136200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 302195.174707 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Silhouette/druid_silhouette_woman.png
+  artifactKey: Guid(a5f0838df787bf540a78006e0a1cc308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Silhouette/druid_silhouette_woman.png using Guid(a5f0838df787bf540a78006e0a1cc308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '493f03f13d3b37b581670529a7427b31') in 0.0678664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104899 seconds.
+  path: Assets/Resources/Prefabs/Old enemies/RangedEnemyQuickFire.prefab
+  artifactKey: Guid(a92e6d4ba9256104cab3161512fa0fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Old enemies/RangedEnemyQuickFire.prefab using Guid(a92e6d4ba9256104cab3161512fa0fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03ee9e5ec7945eaf7a7e39e53bc2c3fc') in 0.0318233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9277169fe08bdc8026b1f047210740b0') in 0.0079388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.066809 seconds.
+  path: Assets/Cursors/Cursors 256/G_Cursor_Hand.png
+  artifactKey: Guid(4fee88e7ef452b146aa4add22a3da773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cursors/Cursors 256/G_Cursor_Hand.png using Guid(4fee88e7ef452b146aa4add22a3da773) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '849515dfbc81445e71fc4987b21284cb') in 0.0085495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041482 seconds.
+  path: Assets/Cursors/Cursors 256/G_Cursor_Hand2.png
+  artifactKey: Guid(284b76fdab4a0aa4fb1d80af1f0f0d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cursors/Cursors 256/G_Cursor_Hand2.png using Guid(284b76fdab4a0aa4fb1d80af1f0f0d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3356c5e842d59962a8314e41b6d8aa9') in 0.0076142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038566 seconds.
+  path: Assets/Cursors/Cursors 256/G_Cursor_Move1.png
+  artifactKey: Guid(b46c0e8558f88124b90949b499fa801f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cursors/Cursors 256/G_Cursor_Move1.png using Guid(b46c0e8558f88124b90949b499fa801f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5f96e999c8e3240ef29e827da5a935b') in 0.0094348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139672 seconds.
+  path: Assets/Cursors/Cursors 256/G_Cursor_Production.png
+  artifactKey: Guid(c012ad47ffcd4ce41b0f04ee61686d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cursors/Cursors 256/G_Cursor_Production.png using Guid(c012ad47ffcd4ce41b0f04ee61686d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5651b918748d5f92f7af54e8a99e4b8') in 0.0111766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.863607 seconds.
+  path: Assets/Cursors/Cursors 256/G_Cursor_ship.png
+  artifactKey: Guid(bd07cfd77024d42459c1bb5bb8e21282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cursors/Cursors 256/G_Cursor_ship.png using Guid(bd07cfd77024d42459c1bb5bb8e21282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f3390c1eb8a732918fcb0a28d6f5d92') in 0.0143914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.787866 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/arrowLeft.png
+  artifactKey: Guid(a6bd4f86ef2160e49a61111c35bca292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/arrowLeft.png using Guid(a6bd4f86ef2160e49a61111c35bca292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00ee1cce59de1b2031fb972c1e8772d7') in 0.0111988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008010 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/audioOff.png
+  artifactKey: Guid(8dfa1c58e627e854f9eb1dea55f3ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/audioOff.png using Guid(8dfa1c58e627e854f9eb1dea55f3ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68e43403fa9bac769d2ccb9e92822e81') in 0.0088855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011661 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/button1.png
+  artifactKey: Guid(2fd3c0f108c401f4b8fad0f4dee75690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/button1.png using Guid(2fd3c0f108c401f4b8fad0f4dee75690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bf11001bda9d85755c42555581a3b19') in 0.0119243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010421 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/audioOn.png
+  artifactKey: Guid(37a911f75cc71e041a999c1fefe2882d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/audioOn.png using Guid(37a911f75cc71e041a999c1fefe2882d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a9fc6c2fd365bcb983a379344c73c6b') in 0.022372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/down.png
+  artifactKey: Guid(6d869b57697afcc4bb34146044ef752d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/down.png using Guid(6d869b57697afcc4bb34146044ef752d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0ddcdda62c6d0afddb91cd40477b14c') in 0.0157437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/checkmark.png
+  artifactKey: Guid(3ed7cef93e4d4fa46aaec2ccf82e2652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/checkmark.png using Guid(3ed7cef93e4d4fa46aaec2ccf82e2652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2fdd9fe139a8c24d1be73d557ba3c72') in 0.0148344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/buttonR1.png
+  artifactKey: Guid(359ef1805d7c9d147901d55331ca820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/buttonR1.png using Guid(359ef1805d7c9d147901d55331ca820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c05d8b672b446c52b7bc9ff3a4c6cf3f') in 0.0116532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/button2.png
+  artifactKey: Guid(ab5b72bef01c82a42868d742d8c03cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/button2.png using Guid(ab5b72bef01c82a42868d742d8c03cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a5654cd03b53c930f554c7df9553119') in 0.0143882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/button3.png
+  artifactKey: Guid(d6c68b1edb8451d4f926ca892b225ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/button3.png using Guid(d6c68b1edb8451d4f926ca892b225ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f70e39be094d147c07dc5cc95a1e254a') in 0.0115321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/downRight.png
+  artifactKey: Guid(348b1d54ddd1285428f628f320ab0a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/downRight.png using Guid(348b1d54ddd1285428f628f320ab0a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87d57be4e4fe6926c39377a8fa630f03') in 0.00863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/barsVertical.png
+  artifactKey: Guid(1b3f79825562da242ba94a1102aa8b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/barsVertical.png using Guid(1b3f79825562da242ba94a1102aa8b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a53a1a9a8bd4595b3a4939568a549799') in 0.0194162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/exitRight.png
+  artifactKey: Guid(3e0f3deed727b8a44bd0ccda3adde9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/exitRight.png using Guid(3e0f3deed727b8a44bd0ccda3adde9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bef7105945973066400c718a2bb9a3da') in 0.0118248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/buttonY.png
+  artifactKey: Guid(a2f1b4394c4dfcc40a2169e10affb22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/buttonY.png using Guid(a2f1b4394c4dfcc40a2169e10affb22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '215cec355431573822945ced59387595') in 0.0110885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/exitLeft.png
+  artifactKey: Guid(22927e6bf2abdd845b31e41a63d24276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/exitLeft.png using Guid(22927e6bf2abdd845b31e41a63d24276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7cdb485e95ad6237e46073669ea62cc') in 0.0134764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/buttonStart.png
+  artifactKey: Guid(ff560ce5a2de1274aa38915d1ee91e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/buttonStart.png using Guid(ff560ce5a2de1274aa38915d1ee91e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcc13730ba84cfd25636d7ca43786f66') in 0.0155563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/exit.png
+  artifactKey: Guid(a7b7f045bb7f31a4b8a8a915bd31e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/exit.png using Guid(a7b7f045bb7f31a4b8a8a915bd31e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8805d36c76bbe33d33accda072348a79') in 0.0158355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.619630 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/fastForward.png
+  artifactKey: Guid(04f699b8d69e7e64cbf26c45a1e18f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/fastForward.png using Guid(04f699b8d69e7e64cbf26c45a1e18f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4f7ad943cd194da3a90f554a5408405') in 0.0100435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/gear.png
+  artifactKey: Guid(29dbdf91df4bbfc4288e01faaa516331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/gear.png using Guid(29dbdf91df4bbfc4288e01faaa516331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bd9c5328b7f853b051a780379e28510') in 0.0090654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/gamepad1.png
+  artifactKey: Guid(cf26940e427fba44d823f7aa9e786406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/gamepad1.png using Guid(cf26940e427fba44d823f7aa9e786406) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d9445a3158f57cec258570dda83fac') in 0.0159318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/gamepad.png
+  artifactKey: Guid(1adf771e7dfd97c40b21d0fd5d02b8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/gamepad.png using Guid(1adf771e7dfd97c40b21d0fd5d02b8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7eb6a9c0cad0c8205b45612290d1fe29') in 0.0130705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.593125 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/import.png
+  artifactKey: Guid(6509b42e062b5ab4da5290865e7ab69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/import.png using Guid(6509b42e062b5ab4da5290865e7ab69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '765c639a45daa877b7f90dc0694ca14c') in 0.0115366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/larger.png
+  artifactKey: Guid(4be5ec478bd7470489ddbefb0e1837c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/larger.png using Guid(4be5ec478bd7470489ddbefb0e1837c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '809f7fba9531faac2d040875d5cc4de3') in 0.013779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/joystick.png
+  artifactKey: Guid(ec69ddc858e317e4587b2e13e28c9765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/joystick.png using Guid(ec69ddc858e317e4587b2e13e28c9765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8249e60822d12fa109a903655503a64') in 0.0073093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/joystickLeft.png
+  artifactKey: Guid(bcc194a46eedf684dad606d03a9631ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/joystickLeft.png using Guid(bcc194a46eedf684dad606d03a9631ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38591156b5395972894ab5986bfea025') in 0.0096748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.724870 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/leaderboardsSimple.png
+  artifactKey: Guid(e34bcba456e92fa4c83429dcf9196728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/leaderboardsSimple.png using Guid(e34bcba456e92fa4c83429dcf9196728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e4939faf5f07d4ce1f2de6c5ceb852c') in 0.0110186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/left.png
+  artifactKey: Guid(13ba2b2612ff7ed4dbba451b875abd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/left.png using Guid(13ba2b2612ff7ed4dbba451b875abd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c02f3ce0f487d45a90c1d032ffacf2b') in 0.0076071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/locked.png
+  artifactKey: Guid(fc43083e0ae1cf740915af0ec3ff32c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/locked.png using Guid(fc43083e0ae1cf740915af0ec3ff32c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87705b0ae5ac02bc72b25ecbcc4c9bf7') in 0.0079002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/menuGrid.png
+  artifactKey: Guid(911f8796af1812f4d939d3fc82826cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/menuGrid.png using Guid(911f8796af1812f4d939d3fc82826cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '296876769046e81b0efc9f89b374de8f') in 0.0267245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047711 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/minus.png
+  artifactKey: Guid(b007201d7c18721408655f0cd1e47c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/minus.png using Guid(b007201d7c18721408655f0cd1e47c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f3dc4d17f3e3503751b0c77f54d6f8d') in 0.0116568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/musicOff.png
+  artifactKey: Guid(f14e51212c3af074f97e5ef967b132e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/musicOff.png using Guid(f14e51212c3af074f97e5ef967b132e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51cceaeafbfb7ae5425de49ab3358425') in 0.0158625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/musicOn.png
+  artifactKey: Guid(d5355b4a5feb61f43ba5eb09efb0e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/musicOn.png using Guid(d5355b4a5feb61f43ba5eb09efb0e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a221c6f11fe481b301c394e25b905496') in 0.0118912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/mouse.png
+  artifactKey: Guid(64aedb0395e8cfb44a80b828df5b6e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/mouse.png using Guid(64aedb0395e8cfb44a80b828df5b6e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4649415cd80c4e68012547c3a0088f7b') in 0.0092124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.733419 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/plus.png
+  artifactKey: Guid(1a63b123f2de6ff47908bf4d30080f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/plus.png using Guid(1a63b123f2de6ff47908bf4d30080f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7389c737056eb4433f8da157dfd9e68a') in 0.0102841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/question.png
+  artifactKey: Guid(6eb1a3745468b4b439c20cdcfcc3aa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/question.png using Guid(6eb1a3745468b4b439c20cdcfcc3aa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4735fc1fb518d7010a38a1870fd766ee') in 0.0166262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.558663 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/scrollHorizontal.png
+  artifactKey: Guid(403721467c783944fac0b0f0e4182acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/scrollHorizontal.png using Guid(403721467c783944fac0b0f0e4182acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad895a37d9584fddc15ee4e692018723') in 0.0158578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.748451 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/signal3.png
+  artifactKey: Guid(bbd037d857db6a046b964e4bdd276576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/signal3.png using Guid(bbd037d857db6a046b964e4bdd276576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '600057c9766bc28f608e5ff62dd44e96') in 0.0208367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
