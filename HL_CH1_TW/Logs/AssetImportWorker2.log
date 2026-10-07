@@ -15,7 +15,7 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55004
+58941
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17840]  Target information:
+Player connection [16700]  Target information:
 
-Player connection [17840]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 3282446727 [EditorId] 3282446727 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16700]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 2238676861 [EditorId] 2238676861 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17840] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17840] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16700] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16700] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.60 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.28 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002722 seconds.
-- Loaded All Assemblies, in  0.346 seconds
+Registered in 0.002838 seconds.
+- Loaded All Assemblies, in  0.314 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 260 ms
+Android Extension - Scanning For ADB Devices 240 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.652 seconds
-Domain Reload Profiling: 997ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 853ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (119ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (108ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (653ms)
+	FinalizeReload (542ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (626ms)
+		SetupLoadedEditorAssemblies (510ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (334ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (25ms)
+			InitializePlatformSupportModulesInManaged (307ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,90 +139,811 @@ Domain Reload Profiling: 997ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.874 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 8 plugins.
+- Loaded All Assemblies, in  1.056 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 8 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.851 seconds
-Domain Reload Profiling: 1722ms
-	BeginReloadAssembly (293ms)
+- Finished resetting the current domain, in  0.709 seconds
+Domain Reload Profiling: 1761ms
+	BeginReloadAssembly (343ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (506ms)
-		LoadAssemblies (356ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (426ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (146ms)
-			BuildScriptInfoCaches (53ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (852ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (187ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (709ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (681ms)
+		SetupLoadedEditorAssemblies (539ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (495ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.64 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4784 unused Assets / (1.7 MB). Loaded Objects now: 5386.
-Memory consumption went from 126.2 MB to 124.5 MB.
-Total: 7.234600 ms (FindLiveObjects: 0.602000 ms CreateObjectMapping: 0.372600 ms MarkObjects: 4.691000 ms  DeleteObjects: 1.568100 ms)
+Unloading 4789 unused Assets / (1.6 MB). Loaded Objects now: 5391.
+Memory consumption went from 128.2 MB to 126.7 MB.
+Total: 5.925100 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.296500 ms MarkObjects: 4.108300 ms  DeleteObjects: 1.153700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 300788.888309 seconds.
-  path: Assets/Art/Button UI/Classic_RPG_GUI/Parts/info_window.png
-  artifactKey: Guid(4cd9629e210f77e43835d58fe29886f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Button UI/Classic_RPG_GUI/Parts/info_window.png using Guid(4cd9629e210f77e43835d58fe29886f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1fe6e2c681e492aafe324ec7c0b703a') in 0.0748211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 328040.548397 seconds.
+  path: Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Warlock/Warlock_DeathNoBlood.png
+  artifactKey: Guid(51d0492331739c146b634ce7dbdea808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Warlock/Warlock_DeathNoBlood.png using Guid(51d0492331739c146b634ce7dbdea808) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '367f13c75dbbe80a6c842b8dbb91823c') in 0.131762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Image/HUD World_BG.png
-  artifactKey: Guid(6c0f62ae7cb315c439c95b5218fcbd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/HUD World_BG.png using Guid(6c0f62ae7cb315c439c95b5218fcbd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52e7dc419bd6a671b1f4605e71986357') in 0.0222366 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.034233 seconds.
+  path: Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Fire Mage/Firemage_AttackNoEffects.png
+  artifactKey: Guid(a54d17a0cb025d24ca97ed8074f550e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Fire Mage/Firemage_AttackNoEffects.png using Guid(a54d17a0cb025d24ca97ed8074f550e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42e571a1ea74bc84cb21718164a39b84') in 0.0807095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Art/Button UI/Classic_RPG_GUI/Parts/info_window_2.png
-  artifactKey: Guid(7eb9b9f702183b9459164ea2894fda6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Button UI/Classic_RPG_GUI/Parts/info_window_2.png using Guid(7eb9b9f702183b9459164ea2894fda6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd09c30afdca4e01bdc08c53feb6131b8') in 0.0120369 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Art/Weapons/Pixel Art Icon Pack - RPG/Texture/Misc/Iron Key.png
-  artifactKey: Guid(e30e7f1121c83ed469e6242c11d18e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Weapons/Pixel Art Icon Pack - RPG/Texture/Misc/Iron Key.png using Guid(e30e7f1121c83ed469e6242c11d18e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed23f2371de5012e53ffc1c1fceb7db5') in 0.0126766 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/basic_bar2_elite.png
+  artifactKey: Guid(16b5db57247c1ab4fad59fb49bc94647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/basic_bar2_elite.png using Guid(16b5db57247c1ab4fad59fb49bc94647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a46882a21fd8ed6d36f8266e8d544614') in 0.0122475 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Art/Weapons/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Boot.png
-  artifactKey: Guid(5170e0068a8cf184fb119834fa7ba0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Weapons/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Boot.png using Guid(5170e0068a8cf184fb119834fa7ba0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f62e0422784a6f7a3f9f56e491fd412') in 0.00893 seconds
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Death.png
+  artifactKey: Guid(68443b992fb0f5a469c8c52f3d22de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Death.png using Guid(68443b992fb0f5a469c8c52f3d22de74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '369b3b6df93965ea2a9904e42f3e1ae7') in 0.0249953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.392466 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/arrowDown.png
+  artifactKey: Guid(ae1e702a0825a264287d9a1a6a7837a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/arrowDown.png using Guid(ae1e702a0825a264287d9a1a6a7837a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30ccaed11bb6e783beb006299e994bfb') in 0.0142806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/audioOn.png
+  artifactKey: Guid(c8e1e2570c0ced94bb62bc582907899d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/audioOn.png using Guid(c8e1e2570c0ced94bb62bc582907899d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7978a8432c938fddf9fb9842f392d677') in 0.0211056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/audioOff.png
+  artifactKey: Guid(d8337fca0049eb04b972b828f4816348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/audioOff.png using Guid(d8337fca0049eb04b972b828f4816348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83302fa49e770a692f708f101a2c2ed3') in 0.0114963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054278 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/backward.png
+  artifactKey: Guid(834e0499545171b4992ed6dbcde66fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/backward.png using Guid(834e0499545171b4992ed6dbcde66fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adb4fcbddc89943f5a98d3efaf1170cc') in 0.0104047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042698 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Fly.png
+  artifactKey: Guid(b438465a32eb63243a7889eb1f400d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Bat/Bat_Fly.png using Guid(b438465a32eb63243a7889eb1f400d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9acbd28ba264a52caa6daf65c5fc2f89') in 0.0141147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043728 seconds.
+  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Food/Beer.png
+  artifactKey: Guid(d0c05b9125ed56349a5385e1a77547b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Food/Beer.png using Guid(d0c05b9125ed56349a5385e1a77547b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23c24242ce48f1604a61fb5d2eeff072') in 0.020482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity Asset Store/UI/Modern GDR - Free icons pack/01_Demo/Resources/BG.png
+  artifactKey: Guid(37e07b1bd28380b4f9cbfa0fc8bd564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Modern GDR - Free icons pack/01_Demo/Resources/BG.png using Guid(37e07b1bd28380b4f9cbfa0fc8bd564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac69d52479893097e9c06dea4b8e66c6') in 0.0094268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Image/BG/BG_Title.png
+  artifactKey: Guid(383888594faa37d409e416b1524f12c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/BG/BG_Title.png using Guid(383888594faa37d409e416b1524f12c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a8728362d8aac28a6b7544ba6efbd82') in 0.0298592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039390 seconds.
+  path: Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Effects/Bloodspurt.png
+  artifactKey: Guid(34fec4d8f29ce3446a4cbdeca4f66d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Effects/Bloodspurt.png using Guid(34fec4d8f29ce3446a4cbdeca4f66d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '031aa9bb6a2bf7ce6d220ebc2f34eaad') in 0.0167494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130044 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Fly.png
+  artifactKey: Guid(711e7a3687098e244af170961d47210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Skull/Bones_SingleSkull_Fly.png using Guid(711e7a3687098e244af170961d47210f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1b3d4eaf06d97635391b70708f6bddc') in 0.0209403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080292 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 3/Bush 3_TEAL.png
+  artifactKey: Guid(f4877a2af92803341b9298cd8699b8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 3/Bush 3_TEAL.png using Guid(f4877a2af92803341b9298cd8699b8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b1c67d581ff3ddf3d17dcbc175c85e9') in 0.0087939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 4/Bush 4_YELLOWISH GREEN.png
+  artifactKey: Guid(78b95b2d7e978344baf9a00ba95cba2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 4/Bush 4_YELLOWISH GREEN.png using Guid(78b95b2d7e978344baf9a00ba95cba2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '783b16c6181fe46beb21f0294e471093') in 0.0089433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 6/Bush 6_YELLOW.png
+  artifactKey: Guid(c316d7aca76a03f44a0409279788ba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 6/Bush 6_YELLOW.png using Guid(c316d7aca76a03f44a0409279788ba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d61d1485dc48ded698bf956b62b51c8') in 0.0087706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 8/Bush 8_GREEN.png
+  artifactKey: Guid(a2fbae8ad20d8d941be0a7eb93e76712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 8/Bush 8_GREEN.png using Guid(a2fbae8ad20d8d941be0a7eb93e76712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77b5e8eee9d033b7e608fffb9aabfcff') in 0.0098352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 9/Bush 9_YELLOWISH GREEN.png
+  artifactKey: Guid(1de6243ef83ca5046a2786b5ed9803ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 9/Bush 9_YELLOWISH GREEN.png using Guid(1de6243ef83ca5046a2786b5ed9803ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e80532ce80f26d2b4aed0d5beb17e7c0') in 0.0112643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 10/Bush 10_YELLOWISH GREEN.png
+  artifactKey: Guid(ed6b411684e67fa4e83d3aced7bfc252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 10/Bush 10_YELLOWISH GREEN.png using Guid(ed6b411684e67fa4e83d3aced7bfc252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bf196de3fc352a0878deaa333ac6c86') in 0.0087194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 13/Bush 13_RED.png
+  artifactKey: Guid(85a84b3d4bef8884baed24d14273563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 13/Bush 13_RED.png using Guid(85a84b3d4bef8884baed24d14273563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fcd09402aa0ae1a917941d3a4744862') in 0.0105795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 12/Bush 12_GREEN.png
+  artifactKey: Guid(e81e0154d220a634e96e2056ed9f37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 12/Bush 12_GREEN.png using Guid(e81e0154d220a634e96e2056ed9f37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a9f56394bb5850178e463cc36de20a9') in 0.0089693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/button1.png
+  artifactKey: Guid(c11d1917afd178246b1b4d9955e086ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/button1.png using Guid(c11d1917afd178246b1b4d9955e086ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f802bd03fbe0fb2f8b848e742fb195f8') in 0.009253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/button3.png
+  artifactKey: Guid(18d49be09c110b847ab8c57edc26ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/button3.png using Guid(18d49be09c110b847ab8c57edc26ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1866d7df6a13d58ea22b6894a53c2774') in 0.0098527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/buttonA.png
+  artifactKey: Guid(043dce4417312d045819f719613c0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/buttonA.png using Guid(043dce4417312d045819f719613c0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2367fde458ce4709f3317c07b803b28') in 0.008722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/button3.png
+  artifactKey: Guid(1dc12e24ea9f43443ae7ba302719082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/button3.png using Guid(1dc12e24ea9f43443ae7ba302719082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9819144537c1aedb7f4d6a9a4076f4b1') in 0.0077264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 12/Bush 12_YELLOW.png
+  artifactKey: Guid(b94357e50deccb445a48215f9084366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tile Palettes/Pixel Art Bush Pack/Bush 12/Bush 12_YELLOW.png using Guid(b94357e50deccb445a48215f9084366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2245994756b3781e464fcafcb74ba600') in 0.0094509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/buttonL2.png
+  artifactKey: Guid(9143810b00050a7498a5e6eaeaf05040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/buttonL2.png using Guid(9143810b00050a7498a5e6eaeaf05040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d130a90f618f6c02d6d7273395d5d56') in 0.0094891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/buttonR1.png
+  artifactKey: Guid(daccc2c5a2803274f859c013cf589348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/buttonR1.png using Guid(daccc2c5a2803274f859c013cf589348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9974cc3d7d80722c060f96c5676d0d98') in 0.0080102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/buttonStart.png
+  artifactKey: Guid(f0453c9edb2ab5147be1db900812d713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/buttonStart.png using Guid(f0453c9edb2ab5147be1db900812d713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c130175e8115056c684e20590305447') in 0.0089594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/buttonStart.png
+  artifactKey: Guid(23e72ff283b30a5408d89b585e779791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/buttonStart.png using Guid(23e72ff283b30a5408d89b585e779791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24f5d44c5bc6191fe26c42fc3bfc50a1') in 0.0095935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/buttonSelect.png
+  artifactKey: Guid(54b43a5e6a3bd7549b2fa235948a1d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/buttonSelect.png using Guid(54b43a5e6a3bd7549b2fa235948a1d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '074e172083a5e11f59b28ce7892c630a') in 0.0080848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_Ability.png
+  artifactKey: Guid(a26e7c276dacc394e84b073715964d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_Ability.png using Guid(a26e7c276dacc394e84b073715964d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f092921d66bbf0bf51777dee9b2808f6') in 0.0247863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836465 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackB.png
+  artifactKey: Guid(8763884bab90cda46990f8d9c8cccb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackB.png using Guid(8763884bab90cda46990f8d9c8cccb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65a3ac3c00de16a782f50f4ccc104a27') in 0.0125692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046645 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackC.png
+  artifactKey: Guid(7c8902e8ebea147499b68bcb3cd51ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Crab/Crab_AttackC.png using Guid(7c8902e8ebea147499b68bcb3cd51ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '966760f040115489d339480d66f4295d') in 0.0201118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.625156 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/cross.png
+  artifactKey: Guid(108ad3f0e94ed884c9c5337cb43174ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/cross.png using Guid(108ad3f0e94ed884c9c5337cb43174ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0586b3eab865944fcc517ad427f34ff') in 0.008134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372100 seconds.
+  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Sapphire.png
+  artifactKey: Guid(3c9805506cdde8f44889fc034ab0097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Sapphire.png using Guid(3c9805506cdde8f44889fc034ab0097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af697e0dcdb4a362ffbda52efb547a4a') in 0.0100831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056086 seconds.
+  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Emerald.png
+  artifactKey: Guid(1fe19ffae1abab0479d7d9716bcbbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Emerald.png using Guid(1fe19ffae1abab0479d7d9716bcbbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4401995edad65ef7cc8bc09db08d21c5') in 0.0083627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047310 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/gear.png
+  artifactKey: Guid(e3c46f200de18f64bb9f10ea2da4b6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/gear.png using Guid(e3c46f200de18f64bb9f10ea2da4b6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f424ee1ee2a1e3e63afe5a568a5543') in 0.0078336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Ability.png
+  artifactKey: Guid(f738d4160643ac1428a9cac4f9b6a39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Ability.png using Guid(f738d4160643ac1428a9cac4f9b6a39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3421eab246cfb2cb9489948e2bcbaa56') in 0.0284851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010605 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_AttackC.png
+  artifactKey: Guid(273d82119a8c53f4ba15c517f58e978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_AttackC.png using Guid(273d82119a8c53f4ba15c517f58e978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87a2908871648bbda033f3247440456f') in 0.0252577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.630361 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Idle.png
+  artifactKey: Guid(59a77fadbba25d14b813a011915c102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Reinforced Golem/Golem_Armor_Idle.png using Guid(59a77fadbba25d14b813a011915c102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f9fe6efd698ad1d45138647a5282262') in 0.0162816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010334 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackB.png
+  artifactKey: Guid(25a3186823579f342b2398d96f6e55a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackB.png using Guid(25a3186823579f342b2398d96f6e55a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4033309e2a55adae09af2420f171d2d1') in 0.0248448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_DeathA.png
+  artifactKey: Guid(d3cba21def3900e44a8969a6f3fa7931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_DeathA.png using Guid(d3cba21def3900e44a8969a6f3fa7931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d7ef921c010f66b1b7cc47ceb90d172') in 0.0224314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.621884 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/home.png
+  artifactKey: Guid(9cc2abe1292fac44d9952e6b8b1007b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/home.png using Guid(9cc2abe1292fac44d9952e6b8b1007b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2ca6e3870d77fe2ced88249849a6a39') in 0.0069574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139670 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/larger.png
+  artifactKey: Guid(73c736482946755429b1db953b3923a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/larger.png using Guid(73c736482946755429b1db953b3923a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1848429105b3d137a4a2ec7526e7575') in 0.0197355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Boot.png
+  artifactKey: Guid(29a1226f7b5e20240942612e151c3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Boot.png using Guid(29a1226f7b5e20240942612e151c3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a7e6f30d5a8d7d2f364b6531334ea58') in 0.0108283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Armor.png
+  artifactKey: Guid(e37ee0b1cbe20c5458102626b95a6b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Armor.png using Guid(e37ee0b1cbe20c5458102626b95a6b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d35f3cac870591503912ceb917e6f4c') in 0.0087326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067510 seconds.
+  path: Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Effects/MeteorShower.png
+  artifactKey: Guid(bcc43a744e362354297a2112d8f1fd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Effects/MeteorShower.png using Guid(bcc43a744e362354297a2112d8f1fd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a2879013fc3f73cba97ffdfb9a08c90') in 0.0550428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/Mini_speak_t.png
+  artifactKey: Guid(a23a22ae770364f44b4a54604e882fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/Mini_speak_t.png using Guid(a23a22ae770364f44b4a54604e882fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a717f01b4de735d97eaae86594e3eaa') in 0.0124169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/Mini_help_t.png
+  artifactKey: Guid(debbf252846b29940a69a2f343bd1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/Mini_help_t.png using Guid(debbf252846b29940a69a2f343bd1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ad65d2df39afa7c12c34522435f7fd4') in 0.0114102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/Mini_arrow_bot2.png
+  artifactKey: Guid(53960e9a9a2d4014d84fe451519f4e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/Mini_arrow_bot2.png using Guid(53960e9a9a2d4014d84fe451519f4e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5067c03e65f36ca35f9dd189d6ff5160') in 0.0132916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/Mini_arrow_bot2_t.png
+  artifactKey: Guid(be990aa898cf8b24e984f2eea933b217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/Mini_arrow_bot2_t.png using Guid(be990aa898cf8b24e984f2eea933b217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2f11a4c5e91b73114999e7d60acae9d') in 0.0122878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.022754 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/minus.png
+  artifactKey: Guid(54528c841c355c6459d3562183f61bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/minus.png using Guid(54528c841c355c6459d3562183f61bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '765198df035cb1562975a61f9260d141') in 0.0108039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Monster Part/Monster Meat.png
+  artifactKey: Guid(d44f6865f42ca39448500daef88c4c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Monster Part/Monster Meat.png using Guid(d44f6865f42ca39448500daef88c4c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b632db3db4ac9c07c56cd675c9c77251') in 0.0115066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034570 seconds.
+  path: Assets/Image/UI/UI_HealthBar/MP_Bar_Design.png
+  artifactKey: Guid(138276e36889a524fa933f37439443e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/UI_HealthBar/MP_Bar_Design.png using Guid(138276e36889a524fa933f37439443e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee16dd220db6d71325ce04c32fb55003') in 0.0138434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034023 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/musicOff.png
+  artifactKey: Guid(0e6f9da45cca82f479d13c6c5eac8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/musicOff.png using Guid(0e6f9da45cca82f479d13c6c5eac8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aac00b6f8113957e89d2510863f30322') in 0.0114245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Necromancer/Necromancer.png
+  artifactKey: Guid(3b290abebd884514c9e1bf1db2d6a845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Necromancer/Necromancer.png using Guid(3b290abebd884514c9e1bf1db2d6a845) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '147c49785a4ac8e58370fb5f1cdc9627') in 0.1031117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.833797 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/next.png
+  artifactKey: Guid(0227baa647b54664cbde04413c642631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/next.png using Guid(0227baa647b54664cbde04413c642631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc308c348d75e0ffcb0be95f509c0a6a') in 0.0214459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/option_button.png
+  artifactKey: Guid(fbe9d9fb14d8f3246a383f126a3b8406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/option_button.png using Guid(fbe9d9fb14d8f3246a383f126a3b8406) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee470eb07e6f43a05f4a32e3686b3156') in 0.0212256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081445 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Pebble/Pebble_Idle.png
+  artifactKey: Guid(1237f579e0f6c154e8fb79d5d05d519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Pebble/Pebble_Idle.png using Guid(1237f579e0f6c154e8fb79d5d05d519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '657104f10e207ae884b2ffb9038a9f70') in 0.0120487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052042 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/phone.png
+  artifactKey: Guid(c8466ef5c0d193b479ffe1fbddeb1e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/phone.png using Guid(c8466ef5c0d193b479ffe1fbddeb1e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25e2516c27fd78c38f2d1187eb183fb4') in 0.0089878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456372 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/plus.png
+  artifactKey: Guid(145737b6f1a08a848950cd52a4bea117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/plus.png using Guid(145737b6f1a08a848950cd52a4bea117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04d27aefce0e1a3b886aed8f15ad30c7') in 0.0084113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/power.png
+  artifactKey: Guid(56f97f707ae4caf4eb139f6831934306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/power.png using Guid(56f97f707ae4caf4eb139f6831934306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ab6c2aa8b98a9a0ffa1a0f055362496') in 0.0113394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090010 seconds.
+  path: Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Priest/Priest_Heal.png
+  artifactKey: Guid(43e6e795e90df5c4bbb52f64391cf476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Priest/Priest_Heal.png using Guid(43e6e795e90df5c4bbb52f64391cf476) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50a85aab51dd1fe2d7eaf1d947874a93') in 0.0311799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.890079 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Photoshop/Quest_journal_bar.psd
+  artifactKey: Guid(5da79d9198c4c8845aa196404454e2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Photoshop/Quest_journal_bar.psd using Guid(5da79d9198c4c8845aa196404454e2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cd9f702de75c9fc5695135303fade09') in 0.0259182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Attack.png
+  artifactKey: Guid(6bcc22196438ea542b9177f5fbaf5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Enemies/Enemy Galore 1 - Pixel Art/Sprites/Rat/Rat_Attack.png using Guid(6bcc22196438ea542b9177f5fbaf5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01276a777dc7fa38ae359f4bf0c8357d') in 0.0530103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070412 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/right.png
+  artifactKey: Guid(904db10f0a74a584d9e338c08429c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/right.png using Guid(904db10f0a74a584d9e338c08429c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0788df53402c9a7cf65a13b2a77b2ac1') in 0.013625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.469556 seconds.
+  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Material/Rope.png
+  artifactKey: Guid(3281101b955224c4f9bfd58e8ab4c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Material/Rope.png using Guid(3281101b955224c4f9bfd58e8ab4c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1eeab58b249f9d944ae90ddb1ee1689c') in 0.0102009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010641 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/update/RoundFrame_purple.png
+  artifactKey: Guid(6ede7b7ca1150cd4c88960832dbe1d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/update/RoundFrame_purple.png using Guid(6ede7b7ca1150cd4c88960832dbe1d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee5474416ab4b68580f954e90534c789') in 0.0090997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040476 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/save.png
+  artifactKey: Guid(ea428eb54b2e9d54aac3abdb6f47a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/save.png using Guid(ea428eb54b2e9d54aac3abdb6f47a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64b81e4e27d9f9283333c1dcc984fc65') in 0.0078676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/scrollVertical.png
+  artifactKey: Guid(3b59f647e2df9ef4fa4206646480e347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/scrollVertical.png using Guid(3b59f647e2df9ef4fa4206646480e347) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c57386b93646d6cfa2d395af01aa45b2') in 0.0108575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/scrollHorizontal.png
+  artifactKey: Guid(75bfdb46fd3a3bb4c96e3cded0494f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/scrollHorizontal.png using Guid(75bfdb46fd3a3bb4c96e3cded0494f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd27cef4d17df727bcdc17d3c9f1449') in 0.011637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086540 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/Spritesheet/sheet_white1x.png
+  artifactKey: Guid(b6ff4ee7374b615409f77f87127131e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/Spritesheet/sheet_white1x.png using Guid(b6ff4ee7374b615409f77f87127131e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7ffdc02161f60fb074af0c604d2fb05') in 0.2901051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.354076 seconds.
+  path: Assets/Image/LOGO/Studio LOGO.png
+  artifactKey: Guid(81f7c6ec3c9306d46b530d0713e854b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/LOGO/Studio LOGO.png using Guid(81f7c6ec3c9306d46b530d0713e854b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb43972a47d60d34685f47df9d0acc27') in 0.0368883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009074 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/unlocked.png
+  artifactKey: Guid(2ebd91706fa0d5242b6e9b2cd3088305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/unlocked.png using Guid(2ebd91706fa0d5242b6e9b2cd3088305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1be3a2814eaf3fc479b0bcf3d7d3db3f') in 0.008536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013466 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/up.png
+  artifactKey: Guid(b7b7e0b8bb14d3348b91e3fd703fa88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/up.png using Guid(b7b7e0b8bb14d3348b91e3fd703fa88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d33972191c17c5c0cc2ad8a385286d') in 0.0098369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/upRight.png
+  artifactKey: Guid(918b49025f29d3d48a55abac8b870ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/upRight.png using Guid(918b49025f29d3d48a55abac8b870ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c75802a088782bbd16f6e612038ba454') in 0.0092021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/frame_backgrounds/wand_background.png
+  artifactKey: Guid(0c117a25330d9f04f9d01e9cfdb1f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/frame_backgrounds/wand_background.png using Guid(0c117a25330d9f04f9d01e9cfdb1f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d85dbc512bc61bfe4ad85ba3052195b') in 0.0168582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/upRight.png
+  artifactKey: Guid(b9d412b1f95ca4741b038b18027574df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/upRight.png using Guid(b9d412b1f95ca4741b038b18027574df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdb49a184ca4c9ec3df25726dfafc26d') in 0.0091535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/up.png
+  artifactKey: Guid(380c6c353db0341478c82e81bd2f7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/up.png using Guid(380c6c353db0341478c82e81bd2f7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '482c7fa9c0bbf0d417adaf2309e88917') in 0.0164999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/upRight.png
+  artifactKey: Guid(c49a6f016c0ac894da8465535a3758de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/upRight.png using Guid(c49a6f016c0ac894da8465535a3758de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fb99218f4d0ee54f4835115606238e8') in 0.0126385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/upLeft.png
+  artifactKey: Guid(858a9a2e19b027b4f94c596474be7823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/upLeft.png using Guid(858a9a2e19b027b4f94c596474be7823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92586f66b4f0ec2391473a5eec4a9bc7') in 0.0137526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.785117 seconds.
+  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Topaz.png
+  artifactKey: Guid(b6da46610f2e67c47ab4f5011422203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Topaz.png using Guid(b6da46610f2e67c47ab4f5011422203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e3daf22fa0669819d76630eef240e1f') in 0.0126494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/trophy.png
+  artifactKey: Guid(59fb55d36c5ac114a82cb2f59406acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/trophy.png using Guid(59fb55d36c5ac114a82cb2f59406acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1afa8cbb03f43fb128a1cc5b0ba49d54') in 0.0140076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/trophy.png
+  artifactKey: Guid(d773f34ab54d444448b44acf673a0627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/trophy.png using Guid(d773f34ab54d444448b44acf673a0627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd559144846d0ee2a45feca50d2c89b7b') in 0.0098192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/trashcanOpen.png
+  artifactKey: Guid(f7ca8ad1d1a89e8468f76f59e11c210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/trashcanOpen.png using Guid(f7ca8ad1d1a89e8468f76f59e11c210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffb01c1cde7549bdd7f93ea1d65fb78a') in 0.0186918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.900 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 8 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.968 seconds
+Domain Reload Profiling: 1868ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (567ms)
+		LoadAssemblies (452ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (968ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (737ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4787 unused Assets / (1.3 MB). Loaded Objects now: 5607.
+Memory consumption went from 120.1 MB to 118.8 MB.
+Total: 7.774700 ms (FindLiveObjects: 0.540300 ms CreateObjectMapping: 0.337800 ms MarkObjects: 4.895000 ms  DeleteObjects: 1.999800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.007524 seconds.
+  path: Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Storm Mage/StormMage_DeathNoBlood.png
+  artifactKey: Guid(5f4dc471d35a9be4c8ee2bfd376be6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/Storm Mage/StormMage_DeathNoBlood.png using Guid(5f4dc471d35a9be4c8ee2bfd376be6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48be83c8157581d6d0c2d5cf12e3c50e') in 0.0826809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274356 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/lil_bar.png
+  artifactKey: Guid(a5294120d8231a744adc877d297d0d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Parts/lil_bar.png using Guid(a5294120d8231a744adc877d297d0d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd32575815a12721c6e8943bbcfe5c424') in 0.0118929 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

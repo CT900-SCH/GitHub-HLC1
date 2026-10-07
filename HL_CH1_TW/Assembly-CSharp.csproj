@@ -109,6 +109,7 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Scenes\ScenePortal.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Script\Gameplay\RangedEnemyQuickFire.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\InventoryCardIconController.cs" />
     <Compile Include="Assets\Script\DontDie.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\HeroCardData.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\PlayerCardIconLibrary.cs" />
@@ -133,6 +134,7 @@
     <Compile Include="Assets\Script\Gameplay\Bullet.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\InventorySelectedCardDisplay.cs" />
     <Compile Include="Assets\Art\Characters\Enemies\Bandits - Pixel Art\Demo\Bandit.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of JSONs\JSON Skills\SkillLoader.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIHubWorld.cs" />
@@ -151,6 +153,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\CardColor.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\InventoryCardListController.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\InventoryDisplayModeToggle.cs" />
     <Compile Include="Assets\Art\Characters\Enemies\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of JSONs\JSON Player Characters\CharacterLoader.cs" />
@@ -179,6 +182,7 @@
     <Compile Include="Assets\Script\Gameplay\MeleeEnemy.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerHPDisplay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\InventorySectionController.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cutscenes\StoryTextController.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Levels\PlayerLevelUpStats.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIPlayerSelection.cs" />
