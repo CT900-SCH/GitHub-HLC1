@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Role_Icon_Ranger_0: 447582902519592399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

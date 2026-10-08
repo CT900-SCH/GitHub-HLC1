@@ -3,120 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of card storage\\inventorysectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\inventorysectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of cards\\unitcarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\unitcarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of card storage\\inventoryselectedcarddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\inventoryselectedcarddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of card storage\\inventorycardiconcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\inventorycardiconcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of card storage\\inventorydisplaymodetoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\inventorydisplaymodetoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of card storage\\inventorycardlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\inventorycardlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of uis\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of uis\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\uiscripts\\uihubworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\uiscripts\\uihubworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of card storage\\deckslotcardentryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\deckslotcardentryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of run\\randomcardrewardbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of card storage\\deckslotcardcustomize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\deckslotcardcustomize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of run\\randomcardrewardbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of run\\randomcardrewardbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of card storage\\cardstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of card storage\\cardstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\cardstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of uis\\pauseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\pauseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of uis\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of uis\\panelui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\panelui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\uiscripts\\uipausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\uiscripts\\uipausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\uiscripts\\uimainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\uiscripts\\uimainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\unitcardiconlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\unitcardiconlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\unitcarddataeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\unitcarddataeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\z_displaycardcontents\\unitcardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\z_displaycardcontents\\unitcardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\z_displaycardcontents\\unitcardcolorimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\z_displaycardcontents\\unitcardcolorimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\herocarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\herocarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\z_displaycardcontents\\herocardcolorimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\z_displaycardcontents\\herocardcolorimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\weaponboxesfollowtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\weaponboxesfollowtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\herocardiconlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\herocardiconlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\herocarddataeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\herocarddataeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\playercarddataeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\playercarddataeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\z_displaycardcontents\\herocardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\z_displaycardcontents\\herocardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\z_displaycardcontents\\playercardcolorimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\z_displaycardcontents\\playercardcolorimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\playercarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\playercarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\assets\\script\\system\\management of cards\\z_displaycardcontents\\playercardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of cards\\z_displaycardcontents\\playercardview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -125,358 +29,73 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 264,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InventorySectionController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventorySectionController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventorySectionController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventorySectionController.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventorySectionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:23.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventorySelectedCardDisplay.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventorySelectedCardDisplay.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventorySelectedCardDisplay.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventorySelectedCardDisplay.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventorySelectedCardDisplay.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.668Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InventoryCardIconController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryCardIconController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryCardIconController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryCardIconController.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryCardIconController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwLkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InventoryCardListItem.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryCardListItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryCardListItem.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryCardListItem.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryCardListItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "RandomCardRewardButton.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Run\\RandomCardRewardButton.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Run\\RandomCardRewardButton.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Run\\RandomCardRewardButton.cs",
               "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Run\\RandomCardRewardButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.67Z"
+              "WhenOpened": "2026-10-08T13:30:02.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CardStorage.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKABAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwGsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PauseUI.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\PauseUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\PauseUI.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\PauseUI.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\PauseUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainUI.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\MainUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PanelUI.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\PanelUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\PanelUI.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\PanelUI.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\PanelUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UIPauseMenu.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIPauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\UIScripts\\UIPauseMenu.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIPauseMenu.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\UIScripts\\UIPauseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UIMainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\UIScripts\\UIMainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UIHubWorld.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIHubWorld.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\UIScripts\\UIHubWorld.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\UIScripts\\UIHubWorld.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\UIScripts\\UIHubWorld.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitCardData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardData.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardData.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardData.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAIA7wEYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.679Z",
+              "WhenOpened": "2026-10-08T13:16:33.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "InventoryDisplayModeToggle.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryDisplayModeToggle.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryDisplayModeToggle.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryDisplayModeToggle.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\InventoryDisplayModeToggle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Title": "CardStorage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
+              "ViewState": "AgIAAGQCAAAAAAAAAAAQwA4DAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.682Z"
+              "WhenOpened": "2026-10-08T13:02:31.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UnitCardIconLibrary.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardIconLibrary.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardIconLibrary.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardIconLibrary.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardIconLibrary.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAIwH0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DeckSlotCardCustomize.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardCustomize.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardCustomize.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardCustomize.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardCustomize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.682Z"
+              "WhenOpened": "2026-10-08T13:01:46.668Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UnitCardDataEditor.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardDataEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardDataEditor.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardDataEditor.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\UnitCardDataEditor.cs",
-              "ViewState": "AgIAAHYBAAAAAAAAAAAIwMABAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DeckSlotCardEntryUI.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardEntryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardEntryUI.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardEntryUI.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardEntryUI.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAIwDcBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UnitCardView.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\UnitCardView.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\UnitCardView.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\UnitCardView.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\UnitCardView.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAqwKMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UnitCardColorImage.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\UnitCardColorImage.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\UnitCardColorImage.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\UnitCardColorImage.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\UnitCardColorImage.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAIwIQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HeroCardColorImage.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\HeroCardColorImage.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\HeroCardColorImage.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\HeroCardColorImage.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\HeroCardColorImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "WeaponBoxesFollowText.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\WeaponBoxesFollowText.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\WeaponBoxesFollowText.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\WeaponBoxesFollowText.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\WeaponBoxesFollowText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HeroCardData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardData.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardData.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardData.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HeroCardIconLibrary.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardIconLibrary.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardIconLibrary.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardIconLibrary.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardIconLibrary.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAADgv20AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HeroCardDataEditor.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardDataEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardDataEditor.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardDataEditor.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\HeroCardDataEditor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALABAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "HeroCardView.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\HeroCardView.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\HeroCardView.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\HeroCardView.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\HeroCardView.cs",
-              "ViewState": "AgIAAAsBAAAAAAAAAAAIwFUBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PlayerCardData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\PlayerCardData.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\PlayerCardData.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\PlayerCardData.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\PlayerCardData.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAIAywEEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PlayerCardColorImage.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\PlayerCardColorImage.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\PlayerCardColorImage.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\PlayerCardColorImage.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\PlayerCardColorImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PlayerCardDataEditor.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\PlayerCardDataEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\PlayerCardDataEditor.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\PlayerCardDataEditor.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\PlayerCardDataEditor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PlayerCardView.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\PlayerCardView.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\PlayerCardView.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\PlayerCardView.cs",
-              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Cards\\Z_DisplayCardContents\\PlayerCardView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T12:24:17.69Z"
+              "WhenOpened": "2026-10-08T12:58:56.008Z",
+              "EditorCaption": ""
             }
           ]
         }

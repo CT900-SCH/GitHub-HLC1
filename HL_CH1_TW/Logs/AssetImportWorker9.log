@@ -15,7 +15,7 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-58941
+63570
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [45372]  Target information:
+Player connection [39652]  Target information:
 
-Player connection [45372]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 1228029453 [EditorId] 1228029453 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [39652]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 1418239164 [EditorId] 1418239164 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [45372] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [45372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [39652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39652] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.41 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.90 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002992 seconds.
-- Loaded All Assemblies, in  0.302 seconds
+Registered in 0.002678 seconds.
+- Loaded All Assemblies, in  0.294 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 220 ms
+Android Extension - Scanning For ADB Devices 193 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.561 seconds
-Domain Reload Profiling: 861ms
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 758ms
 	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (100ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (102ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (561ms)
+	FinalizeReload (466ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
+		SetupLoadedEditorAssemblies (434ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (288ms)
+			InitializePlatformSupportModulesInManaged (258ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (145ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,162 +139,106 @@ Domain Reload Profiling: 861ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.800 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.731 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 8 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.670 seconds
-Domain Reload Profiling: 1467ms
-	BeginReloadAssembly (291ms)
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 1297ms
+	BeginReloadAssembly (276ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (436ms)
-		LoadAssemblies (312ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (280ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (129ms)
-			BuildScriptInfoCaches (52ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (671ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (569ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (503ms)
+		SetupLoadedEditorAssemblies (436ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (348ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.73 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.90 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4790 unused Assets / (1.6 MB). Loaded Objects now: 5392.
-Memory consumption went from 130.2 MB to 128.6 MB.
-Total: 6.174200 ms (FindLiveObjects: 0.433900 ms CreateObjectMapping: 0.368200 ms MarkObjects: 4.255200 ms  DeleteObjects: 1.115700 ms)
+Unloading 4792 unused Assets / (1.4 MB). Loaded Objects now: 5394.
+Memory consumption went from 130.2 MB to 128.8 MB.
+Total: 4.997500 ms (FindLiveObjects: 0.352500 ms CreateObjectMapping: 0.280500 ms MarkObjects: 3.522500 ms  DeleteObjects: 0.841500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 330818.686029 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/target.png
-  artifactKey: Guid(c9832c7329a7a144d8dbde25bd561aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/target.png using Guid(c9832c7329a7a144d8dbde25bd561aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be55a5979bd8b62e3fd3f7393b4078d2') in 0.0731493 seconds
+  Time since last request: 413170.731713 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Silhouette/archer_silhouette_man.png
+  artifactKey: Guid(6600a6346bb5c554fa36771f0f08d87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Silhouette/archer_silhouette_man.png using Guid(6600a6346bb5c554fa36771f0f08d87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4f72a8d92946e879fc6020fc6136a95') in 0.1127113 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.925152 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/share1.png
-  artifactKey: Guid(de1afcce0f0b4dc47998c3db79dfac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/share1.png using Guid(de1afcce0f0b4dc47998c3db79dfac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3f3481d9de393ccd9bc91053cb33eea') in 0.0157909 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/backward.png
+  artifactKey: Guid(3d0c64e1f48f3c640a694d35869cac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/backward.png using Guid(3d0c64e1f48f3c640a694d35869cac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d3b43edf8970a2edcda92ceaa6520be') in 0.009232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/audioOn.png
+  artifactKey: Guid(37a911f75cc71e041a999c1fefe2882d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/2x/audioOn.png using Guid(37a911f75cc71e041a999c1fefe2882d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d2b15727b5997559f6bc7880ff05937') in 0.0103433 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.386779 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/buttonL.png
-  artifactKey: Guid(35da852cbf6ff8942bf9b0dfb79a853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/buttonL.png using Guid(35da852cbf6ff8942bf9b0dfb79a853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1fde99601143af4c4370cce0fb3ef8e') in 0.0175813 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/Silhouette/assassin_silhouette_woman.png
+  artifactKey: Guid(67379bdf24016be439341b054328f51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/Silhouette/assassin_silhouette_woman.png using Guid(67379bdf24016be439341b054328f51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bb01eb9ed640c1d9c73f47d7b2a51f9') in 0.0099996 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.943458 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/downLeft.png
-  artifactKey: Guid(788dfd06ba2688d4582e23bdcd93ee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/downLeft.png using Guid(788dfd06ba2688d4582e23bdcd93ee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ca190ffd81766409fa7b0a04d2dfb44') in 0.0146492 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/audioOff.png
+  artifactKey: Guid(624c7121474f23d4695a2d3d61a673fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/audioOff.png using Guid(624c7121474f23d4695a2d3d61a673fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b177c7a3e4254fcb5b32457130c3929') in 0.0070948 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.036215 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/downRight.png
-  artifactKey: Guid(aed504f7687272b4db39729ca3eda6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/downRight.png using Guid(aed504f7687272b4db39729ca3eda6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04e5997d74d88b7860d78d62f2691faf') in 0.0093283 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/audioOff.png
+  artifactKey: Guid(d8337fca0049eb04b972b828f4816348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/audioOff.png using Guid(d8337fca0049eb04b972b828f4816348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9a34e0760b50bebe712641a676a4b9c') in 0.0301308 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.677898 seconds.
-  path: Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/EnvironmentTiles.png
-  artifactKey: Guid(b2a7e0834b194fb4a9c2bdf360e7ec27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Player Classes/Pixel Heroes Pack/Sprites/EnvironmentTiles.png using Guid(b2a7e0834b194fb4a9c2bdf360e7ec27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '887569d235c7537c6cc991c15736b67c') in 0.0167457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032017 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/exit.png
-  artifactKey: Guid(434c25ffacf2a7842a1dc53ef6bc4fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/exit.png using Guid(434c25ffacf2a7842a1dc53ef6bc4fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79469e104cac3d9e1caac72e0ff5310a') in 0.0139395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.356522 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/export.png
-  artifactKey: Guid(b689702906d75fa40acd8bce5f9c592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/export.png using Guid(b689702906d75fa40acd8bce5f9c592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdfa3cbcaf7b3ee24f6ecc874690d31f') in 0.0112122 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003498 seconds.
-  path: Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Monster Part/Feather.png
-  artifactKey: Guid(5319e90cdef08eb4a90ed29d73271916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/Pixel Art Icon Pack - RPG/Texture/Monster Part/Feather.png using Guid(5319e90cdef08eb4a90ed29d73271916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '931f6bfab7d3986fca374eab95583066') in 0.0100569 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.009334 seconds.
-  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/update/Frame_empty.png
-  artifactKey: Guid(9cd1fe586dd5bf94b83e11d4e2801357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/update/Frame_empty.png using Guid(9cd1fe586dd5bf94b83e11d4e2801357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e056460adead820cc73e6d059989cba') in 0.0158872 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.093134 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/import.png
-  artifactKey: Guid(e9307aa5d3b56614e9f20a08da8a2bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/import.png using Guid(e9307aa5d3b56614e9f20a08da8a2bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f9a89e9fb13761789be0573d2e677b0') in 0.015852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074057 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/joystickRight.png
-  artifactKey: Guid(302bb4abc68bd6840a1fd8a15fe6fe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/1x/joystickRight.png using Guid(302bb4abc68bd6840a1fd8a15fe6fe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1d6d93284b694c9080faa80414a9154') in 0.0091953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/joystickUp.png
-  artifactKey: Guid(a311e4438ec96a049a2fb94c544e7396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/Black/2x/joystickUp.png using Guid(a311e4438ec96a049a2fb94c544e7396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d247ab5c5687b993a77f96d0774321') in 0.0081711 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.719810 seconds.
-  path: Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/medal2.png
-  artifactKey: Guid(bdcb7902565d8dd41915cfee98564bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Asset Store/UI/kenney_game-icons/PNG/White/1x/medal2.png using Guid(bdcb7902565d8dd41915cfee98564bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b168ac6c71e7836bf20a80bbecf20c45') in 0.0086011 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Unity Asset Store/UI/Classic_RPG_GUI/update/Background_r_purple.png
+  artifactKey: Guid(ca6f1abc22e4f6b49bed4ef4032c7191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Asset Store/UI/Classic_RPG_GUI/update/Background_r_purple.png using Guid(ca6f1abc22e4f6b49bed4ef4032c7191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48739b5c1ce33777f5b2d4b7e54faf59') in 0.0117931 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

@@ -16,6 +16,9 @@ public class UIManager : SimpleSingleton<UIManager>
     private Dictionary<UIPauseID, GameObject> pauseUITemplates =
         new Dictionary<UIPauseID, GameObject>();
 
+    private Dictionary<UIDeckBuilderID, GameObject> deckBuilderUITemplates =
+        new Dictionary<UIDeckBuilderID, GameObject>();
+
     private RectTransform mainCanvas;
 
     public List<GameObject> openedUI = new List<GameObject>();
@@ -37,16 +40,28 @@ public class UIManager : SimpleSingleton<UIManager>
 
         foreach (GameObject template in templates)
         {
+            // Register MainUI prefabs.
+            if (template.TryGetComponent(out MainUI mainUI))
+            {
+                mainUITemplates[mainUI.ID] = template;
+            }
+
             // Register PanelUI prefabs.
             if (template.TryGetComponent(out PanelUI panelUI))
             {
                 panelTemplates[panelUI.ID] = template;
             }
 
-            // Register MainUI prefabs.
-            if (template.TryGetComponent(out MainUI mainUI))
+            // Register PauseUI prefabs.
+            if (template.TryGetComponent(out PauseUI pauseUI))
             {
-                mainUITemplates[mainUI.ID] = template;
+                pauseUITemplates[pauseUI.ID] = template;
+            }
+
+            // Register DeckBuilderUI prefabs.
+            if (template.TryGetComponent(out DeckBuilderUI deckBuilderUI))
+            {
+                deckBuilderUITemplates[deckBuilderUI.ID] = template;
             }
         }
     }
@@ -144,6 +159,37 @@ public class UIManager : SimpleSingleton<UIManager>
 
 
 
+    // Open a DeckBuilderUI.
+    public GameObject Open(UIDeckBuilderID id)
+    {
+        if (deckBuilderUITemplates.TryGetValue(id, out GameObject template))
+        {
+            return CreateUI(template);
+        }
+
+        Debug.LogWarning("Cannot find DeckBuilderUI: " + id);
+        return null;
+    }
+
+    // Replace everything with a DeckBuilderUI.
+    public GameObject OpenReplace(UIDeckBuilderID id)
+    {
+        CloseAll();
+        return Open(id);
+    }
+
+    // Is UI Open DeckBuilderUI?
+    public bool IsUIOpen(UIDeckBuilderID id)
+    {
+        return openedUI.Exists(ui =>
+            ui != null &&
+            ui.GetComponent<DeckBuilderUI>()?.ID == id);
+    }
+
+
+
+
+
     private GameObject CreateUI(GameObject template)
     {
         GameObject newUI = Instantiate(template, mainCanvas);
@@ -206,4 +252,10 @@ public enum UIPauseID
     DeckBuilder,
     CraftAltar,
     News
+}
+
+public enum UIDeckBuilderID
+{
+    DeckBuilderEditDeck,
+    DeckBuilderCardInfo,
 }

@@ -114,9 +114,11 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\HeroCardData.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cards\PlayerCardIconLibrary.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\UIPlayerLevelDisplay.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\DeckSlotCardEntryUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIPlaySfx.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIMainMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of DeckBuilder\DeckBuilderUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Interface\IEquippable.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UITutorialScreen.cs" />
@@ -132,6 +134,7 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Enemies\Enemy.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Interface\IDamagable.cs" />
     <Compile Include="Assets\Script\Gameplay\Bullet.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of DeckBuilder\UIDeckBuilder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\InventorySelectedCardDisplay.cs" />
@@ -186,6 +189,7 @@
     <Compile Include="Assets\Script\SYSTEM\Management Of Cutscenes\StoryTextController.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Levels\PlayerLevelUpStats.cs" />
     <Compile Include="Assets\Script\SYSTEM\UIScripts\UIPlayerSelection.cs" />
+    <Compile Include="Assets\Script\SYSTEM\Management Of Card Storage\DeckSlotCardCustomize.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Cutscenes\CutsceneManager.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of UIs\PanelUI.cs" />
     <Compile Include="Assets\Script\SYSTEM\Management Of Weapons\Weapon Base\ProjectileWeaponBehaviour.cs" />

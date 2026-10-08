@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UNIT - Human Knight_0: -1332965258783305666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

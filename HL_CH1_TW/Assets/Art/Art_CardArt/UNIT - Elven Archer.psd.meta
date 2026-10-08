@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UNIT - Elven Archer_0: -8297812409625600975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

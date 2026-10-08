@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UNIT - Elven SwordMaster_0: -8632329695587731030
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

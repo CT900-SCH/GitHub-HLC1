@@ -2,10 +2,79 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
+public class DeckSlotData
+{
+    [SerializeField]
+    private List<PlayerCardData> playerCards = new List<PlayerCardData>();
+
+    [SerializeField]
+    private List<HeroCardData> heroCards = new List<HeroCardData>();
+
+    [SerializeField]
+    private List<UnitCardData> unitCards = new List<UnitCardData>();
+
+    public IReadOnlyList<PlayerCardData> PlayerCards => playerCards;
+    public IReadOnlyList<HeroCardData> HeroCards => heroCards;
+    public IReadOnlyList<UnitCardData> UnitCards => unitCards;
+
+    public int CardCount =>
+        playerCards.Count + heroCards.Count + unitCards.Count;
+
+    public int GetCardAmount(PlayerCardData card) =>
+        CountCopies(playerCards, card);
+
+    public int GetCardAmount(HeroCardData card) =>
+        CountCopies(heroCards, card);
+
+    public int GetCardAmount(UnitCardData card) =>
+        CountCopies(unitCards, card);
+
+    internal void AddCard(PlayerCardData card) => playerCards.Add(card);
+    internal void AddCard(HeroCardData card) => heroCards.Add(card);
+    internal void AddCard(UnitCardData card) => unitCards.Add(card);
+
+    internal bool RemoveCard(PlayerCardData card) =>
+        playerCards.Remove(card);
+
+    internal bool RemoveCard(HeroCardData card) =>
+        heroCards.Remove(card);
+
+    internal bool RemoveCard(UnitCardData card) =>
+        unitCards.Remove(card);
+
+    internal void Clear()
+    {
+        playerCards.Clear();
+        heroCards.Clear();
+        unitCards.Clear();
+    }
+
+    private int CountCopies<T>(List<T> cards, T card)
+        where T : ScriptableObject
+    {
+        if (card == null)
+            return 0;
+
+        int amount = 0;
+
+        foreach (T storedCard in cards)
+        {
+            if (storedCard == card)
+                amount++;
+        }
+
+        return amount;
+    }
+}
+
 [DisallowMultipleComponent]
 public class CardStorage : MonoBehaviour
 {
     public const int MaximumCapacity = 50;
+    public const int DeckSlotAmount = 5;
+    public const int DeckCardCapacity = 40;
+    public const int MaximumDeckDuplicates = 4;
 
     [Header("Storage Information")]
 
@@ -41,7 +110,14 @@ public class CardStorage : MonoBehaviour
     private List<UnitCardData> unitCards =
         new List<UnitCardData>();
 
+    [Header("Five Deck Slots")]
+
+    [SerializeField]
+    private List<DeckSlotData> deckSlots =
+        new List<DeckSlotData>();
+
     public event Action OnStorageChanged;
+    public event Action OnDecksChanged;
 
     public IReadOnlyList<PlayerCardData> PlayerCards =>
         playerCards;
@@ -51,6 +127,9 @@ public class CardStorage : MonoBehaviour
 
     public IReadOnlyList<UnitCardData> UnitCards =>
         unitCards;
+
+    public IReadOnlyList<DeckSlotData> DeckSlots =>
+        deckSlots;
 
     public int CurrentAmount =>
         playerCards.Count +
@@ -68,6 +147,11 @@ public class CardStorage : MonoBehaviour
 
     public bool IsFull =>
         CurrentAmount >= maximumCapacity;
+
+    private void Awake()
+    {
+        EnsureDeckSlots();
+    }
 
     // -------------------------
     // ADD PLAYER CARD
@@ -394,9 +478,288 @@ public class CardStorage : MonoBehaviour
                unitCards.Contains(card);
     }
 
+    // -------------------------
+    // DECK SLOT INFORMATION
+    // Slot numbers are 1 to 5.
+    // -------------------------
+
+    public DeckSlotData GetDeckSlot(int slotNumber)
+    {
+        EnsureDeckSlots();
+
+        if (slotNumber < 1 || slotNumber > DeckSlotAmount)
+        {
+            Debug.LogWarning(
+                "Deck Slot must be between 1 and " +
+                DeckSlotAmount + "."
+            );
+
+            return null;
+        }
+
+        return deckSlots[slotNumber - 1];
+    }
+
+    public int GetDeckCardCount(int slotNumber)
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+        return slot == null ? 0 : slot.CardCount;
+    }
+
+    public bool IsDeckComplete(int slotNumber)
+    {
+        return GetDeckCardCount(slotNumber) == DeckCardCapacity;
+    }
+
+    public int GetDeckCardAmount(int slotNumber, PlayerCardData card)
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+        return slot == null ? 0 : slot.GetCardAmount(card);
+    }
+
+    public int GetDeckCardAmount(int slotNumber, HeroCardData card)
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+        return slot == null ? 0 : slot.GetCardAmount(card);
+    }
+
+    public int GetDeckCardAmount(int slotNumber, UnitCardData card)
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+        return slot == null ? 0 : slot.GetCardAmount(card);
+    }
+
+    // -------------------------
+    // ADD CARDS TO A DECK
+    // -------------------------
+
+    public bool TryAddToDeck(
+        int slotNumber,
+        PlayerCardData card,
+        out string reason
+    )
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+
+        if (!CanAddToDeck(
+                slot,
+                card,
+                GetCardAmount(card),
+                slot == null ? 0 : slot.GetCardAmount(card),
+                out reason))
+        {
+            return false;
+        }
+
+        slot.AddCard(card);
+        DeckWasChanged();
+        return true;
+    }
+
+    public bool TryAddToDeck(
+        int slotNumber,
+        HeroCardData card,
+        out string reason
+    )
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+
+        if (!CanAddToDeck(
+                slot,
+                card,
+                GetCardAmount(card),
+                slot == null ? 0 : slot.GetCardAmount(card),
+                out reason))
+        {
+            return false;
+        }
+
+        slot.AddCard(card);
+        DeckWasChanged();
+        return true;
+    }
+
+    public bool TryAddToDeck(
+        int slotNumber,
+        UnitCardData card,
+        out string reason
+    )
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+
+        if (!CanAddToDeck(
+                slot,
+                card,
+                GetCardAmount(card),
+                slot == null ? 0 : slot.GetCardAmount(card),
+                out reason))
+        {
+            return false;
+        }
+
+        slot.AddCard(card);
+        DeckWasChanged();
+        return true;
+    }
+
+    public bool CanAddToDeck(
+        int slotNumber,
+        PlayerCardData card,
+        out string reason
+    )
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+
+        return CanAddToDeck(
+            slot,
+            card,
+            GetCardAmount(card),
+            slot == null ? 0 : slot.GetCardAmount(card),
+            out reason
+        );
+    }
+
+    public bool CanAddToDeck(
+        int slotNumber,
+        HeroCardData card,
+        out string reason
+    )
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+
+        return CanAddToDeck(
+            slot,
+            card,
+            GetCardAmount(card),
+            slot == null ? 0 : slot.GetCardAmount(card),
+            out reason
+        );
+    }
+
+    public bool CanAddToDeck(
+        int slotNumber,
+        UnitCardData card,
+        out string reason
+    )
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+
+        return CanAddToDeck(
+            slot,
+            card,
+            GetCardAmount(card),
+            slot == null ? 0 : slot.GetCardAmount(card),
+            out reason
+        );
+    }
+
+    private bool CanAddToDeck<T>(
+        DeckSlotData slot,
+        T card,
+        int ownedAmount,
+        int deckAmount,
+        out string reason
+    ) where T : ScriptableObject
+    {
+        if (slot == null)
+        {
+            reason = "The selected Deck Slot does not exist.";
+            return false;
+        }
+
+        if (card == null)
+        {
+            reason = "The selected Card Data is missing.";
+            return false;
+        }
+
+        if (slot.CardCount >= DeckCardCapacity)
+        {
+            reason = "This deck already contains 40 cards.";
+            return false;
+        }
+
+        if (deckAmount >= MaximumDeckDuplicates)
+        {
+            reason = "A deck can only carry 4 copies of the same card.";
+            return false;
+        }
+
+        if (deckAmount >= ownedAmount)
+        {
+            reason = "You do not own another copy of this card.";
+            return false;
+        }
+
+        reason = string.Empty;
+        return true;
+    }
+
+    // -------------------------
+    // REMOVE CARDS FROM A DECK
+    // -------------------------
+
+    public bool RemoveFromDeck(int slotNumber, PlayerCardData card)
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+        bool removed = slot != null && slot.RemoveCard(card);
+
+        if (removed)
+            DeckWasChanged();
+
+        return removed;
+    }
+
+    public bool RemoveFromDeck(int slotNumber, HeroCardData card)
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+        bool removed = slot != null && slot.RemoveCard(card);
+
+        if (removed)
+            DeckWasChanged();
+
+        return removed;
+    }
+
+    public bool RemoveFromDeck(int slotNumber, UnitCardData card)
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+        bool removed = slot != null && slot.RemoveCard(card);
+
+        if (removed)
+            DeckWasChanged();
+
+        return removed;
+    }
+
+    public void ClearDeckSlot(int slotNumber)
+    {
+        DeckSlotData slot = GetDeckSlot(slotNumber);
+
+        if (slot == null || slot.CardCount == 0)
+            return;
+
+        slot.Clear();
+        DeckWasChanged();
+    }
+
     private void CardWasChanged()
     {
         OnStorageChanged?.Invoke();
+    }
+
+    private void DeckWasChanged()
+    {
+        OnDecksChanged?.Invoke();
+    }
+
+    private void EnsureDeckSlots()
+    {
+        if (deckSlots == null)
+            deckSlots = new List<DeckSlotData>();
+
+        while (deckSlots.Count < DeckSlotAmount)
+            deckSlots.Add(new DeckSlotData());
     }
 
     private void StorageFullWarning()
@@ -413,5 +776,7 @@ public class CardStorage : MonoBehaviour
             1,
             maximumCapacity
         );
+
+        EnsureDeckSlots();
     }
 }

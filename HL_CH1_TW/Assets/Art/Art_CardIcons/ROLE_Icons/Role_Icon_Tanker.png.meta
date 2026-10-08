@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Role_Icon_Tanker_0: 6677291236158490320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

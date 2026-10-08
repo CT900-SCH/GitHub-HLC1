@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PLAYER - Blue_V2_Piece_02_0: 4530334893868614637
+      PLAYER - Blue_V2_Piece_02_1: 6962893068751446355
+      PLAYER - Blue_V2_Piece_02_2: 3742805890490209886
+      PLAYER - Blue_V2_Piece_02_3: -1021910552362791251
+      PLAYER - Blue_V2_Piece_02_4: 3819055574476795767
+      PLAYER - Blue_V2_Piece_02_5: -6316770323438292130
+      PLAYER - Blue_V2_Piece_02_6: -1882821396063384377
+      PLAYER - Blue_V2_Piece_02_7: 1947754163253353839
+      PLAYER - Blue_V2_Piece_02_8: 1997618246461761673
+      PLAYER - Blue_V2_Piece_02_9: -8908535714554164280
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
