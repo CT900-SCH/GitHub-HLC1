@@ -15,7 +15,7 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54294
+55494
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16476]  Target information:
+Player connection [31712]  Target information:
 
-Player connection [16476]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 2704393621 [EditorId] 2704393621 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31712]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 2304490833 [EditorId] 2304490833 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16476] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16476] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31712] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.93 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 2.61 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002648 seconds.
-- Loaded All Assemblies, in  0.315 seconds
+Registered in 0.003024 seconds.
+- Loaded All Assemblies, in  0.324 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 209 ms
+Android Extension - Scanning For ADB Devices 243 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.512 seconds
-Domain Reload Profiling: 825ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.544 seconds
+Domain Reload Profiling: 867ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (104ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (125ms)
 			TypeCache.Refresh (124ms)
 				TypeCache.ScanAssembly (113ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (512ms)
+	FinalizeReload (545ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (479ms)
+		SetupLoadedEditorAssemblies (519ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (282ms)
+			InitializePlatformSupportModulesInManaged (320ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,98 +139,146 @@ Domain Reload Profiling: 825ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.853 seconds
-Refreshing native plugins compatible for Editor in 1.87 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.795 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 8 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.679 seconds
-Domain Reload Profiling: 1529ms
-	BeginReloadAssembly (290ms)
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1441ms
+	BeginReloadAssembly (280ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (490ms)
-		LoadAssemblies (340ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (445ms)
+		LoadAssemblies (311ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (143ms)
-			BuildScriptInfoCaches (56ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (55ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (680ms)
+	FinalizeReload (650ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
+		SetupLoadedEditorAssemblies (497ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (369ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 2.01 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4790 unused Assets / (1.4 MB). Loaded Objects now: 5392.
-Memory consumption went from 128.2 MB to 126.8 MB.
-Total: 6.987900 ms (FindLiveObjects: 0.582800 ms CreateObjectMapping: 0.402800 ms MarkObjects: 4.563200 ms  DeleteObjects: 1.437700 ms)
+Unloading 4794 unused Assets / (1.6 MB). Loaded Objects now: 5396.
+Memory consumption went from 130.2 MB to 128.6 MB.
+Total: 6.778100 ms (FindLiveObjects: 0.409900 ms CreateObjectMapping: 0.330500 ms MarkObjects: 4.416000 ms  DeleteObjects: 1.619700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 382577.170940 seconds.
-  path: Assets/Scenes/HUB WORLD.unity
-  artifactKey: Guid(fbf1b674f6780a94ba6bdd2107e33c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HUB WORLD.unity using Guid(fbf1b674f6780a94ba6bdd2107e33c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '868e6fc499b156a8bc313b0d4758babb') in 0.004337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 498157.363232 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Trooper Spear Guard 1.asset
+  artifactKey: Guid(4f8e4f5e6d200154ab898c9a836a1461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Trooper Spear Guard 1.asset using Guid(4f8e4f5e6d200154ab898c9a836a1461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bff07b8c9e6510b224f14a6f6f0cd890') in 0.0225595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.493139 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Riding Knight 1.asset
+  artifactKey: Guid(bc54108d0e2ea784995cb4d0edf2fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Riding Knight 1.asset using Guid(bc54108d0e2ea784995cb4d0edf2fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1fcf4139d6a5f925b511f5266865a0f') in 0.0025067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.320200 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Sky Archer 1.asset
+  artifactKey: Guid(74c150abf59915c48a7ab8c96a792eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Sky Archer 1.asset using Guid(74c150abf59915c48a7ab8c96a792eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ce35ce4de58ab00b04031521e6c823c') in 0.0027045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.351292 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Village Scout 1.asset
+  artifactKey: Guid(24b53552b6767a94296ef958eeb5700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Village Scout 1.asset using Guid(24b53552b6767a94296ef958eeb5700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cfec3f525669e1d7ee42d85700cc867') in 0.0021551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.356650 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Wingfolk Courier 1.asset
+  artifactKey: Guid(5fe79c3104b9b994c881e20d991e801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Wingfolk Courier 1.asset using Guid(5fe79c3104b9b994c881e20d991e801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8375f2d3494225d58c5b89a42faa7e3a') in 0.0021946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.013918 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Gryphon Lance Rider.asset
+  artifactKey: Guid(5fe79c3104b9b994c881e20d991e801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Gryphon Lance Rider.asset using Guid(5fe79c3104b9b994c881e20d991e801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874aa6c5bbd83fc6ccf92210f0164eb8') in 0.0022894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.494824 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Skyport Tide Mage 1.asset
+  artifactKey: Guid(a101fb89c7b3df54b8b9759b85857fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Skyport Tide Mage 1.asset using Guid(a101fb89c7b3df54b8b9759b85857fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84be6d3f4d6de25310af641cd01e87b7') in 0.002385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.089052 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Flying Airship Cannon 1.asset
+  artifactKey: Guid(b27f8044917129b4fa1d021c0131f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Flying Airship Cannon 1.asset using Guid(b27f8044917129b4fa1d021c0131f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f980ff42a62d19692781689059271936') in 0.0017713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 695.797894 seconds.
+  path: Assets/Art/Art_CardArt/HERO - Matthew The Thief.psd
+  artifactKey: Guid(ca837faa25c83bb44bed05bb2ac56039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/HERO - Matthew The Thief.psd using Guid(ca837faa25c83bb44bed05bb2ac56039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1706d8940568add60e6620cfddc2875d') in 0.0576828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015059 seconds.
+  path: Assets/Art/Art_CardArt/PLAYER - Rusty The Great.psd
+  artifactKey: Guid(5f0413c2d1f3d5243ace142a5dda8698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/PLAYER - Rusty The Great.psd using Guid(5f0413c2d1f3d5243ace142a5dda8698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb65d4f95a9956040e6b303597d84b9a') in 0.0236031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(1e77ab8ec2747b94d8e8d55224fffa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(1e77ab8ec2747b94d8e8d55224fffa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5bf4bb757e7fb65022af50604b42f86') in 0.0003801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.323745 seconds.
-  path: Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2.psd
-  artifactKey: Guid(37bc8450420cd1b4ea59e1caaa99d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2.psd using Guid(37bc8450420cd1b4ea59e1caaa99d9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56c8f3625cf4bff4331096b8d0751183') in 0.0624231 seconds
+  path: Assets/Art/Art_CardArt/HERO - Nabiu The Witch.psd
+  artifactKey: Guid(3f3f729c2b27cb44d82a7dc0e64fb2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/HERO - Nabiu The Witch.psd using Guid(3f3f729c2b27cb44d82a7dc0e64fb2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dee70812e3267d7b7519cb93f4dee9f5') in 0.0163049 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_00.png
-  artifactKey: Guid(a179ffd0b2529264896e4726bbc3489d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_00.png using Guid(a179ffd0b2529264896e4726bbc3489d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bee3d0f8476026a5dc4060bc509c2fe0') in 0.0121526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_01.png
-  artifactKey: Guid(a9d4b9170965deb4693e10d6973b9c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_01.png using Guid(a9d4b9170965deb4693e10d6973b9c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5251b0e68e620fb5822637bc40a249f1') in 0.0818353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_02.png
-  artifactKey: Guid(021c34df1c96ed24ab33043a8aa16f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_02.png using Guid(021c34df1c96ed24ab33043a8aa16f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5aaaf56a9907d4f53e2b61f8a6f31ef9') in 0.0098873 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Art_CardArt/PLAYER - SwordFish Paladin.psd
+  artifactKey: Guid(d93236e030895b4429c08d39492b7c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/PLAYER - SwordFish Paladin.psd using Guid(d93236e030895b4429c08d39492b7c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c03492b2f799b1541b5101c20e63a2c2') in 0.0184634 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

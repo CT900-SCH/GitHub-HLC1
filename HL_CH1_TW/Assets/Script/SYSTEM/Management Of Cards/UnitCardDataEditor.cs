@@ -17,6 +17,7 @@ public class UnitCardDataEditor : Editor
         DrawProperty("illustratorName");
         DrawProperty("cardColor");
         DrawProperty("cardArtwork");
+        DrawProperty("illustrationArtwork");
         DrawProperty("expansionIcon");
 
         DrawHeader("Battlefield Information");

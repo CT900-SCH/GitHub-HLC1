@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde49ebcbb5903a4faafd4b333d9725f, type: 3}
+  m_Name: Skyport Tide Mage
+  m_EditorClassIdentifier: 
+  cardID: HL-TWR-3002
+  illustratorName: Cello Tan
+  cardColor: 1
+  cardArtwork: {fileID: -1332965258783305666, guid: e544ee99934248648b2530a809017c23, type: 3}
+  illustrationArtwork: {fileID: -1332965258783305666, guid: 50b2f875e71b5d243a901ae44db93698, type: 3}
+  expansionIcon: {fileID: -5206853160465455904, guid: e39a3994b0fe77c46ba032dfdf0c6c5e, type: 3}
+  cardCost: 4
+  role: 2
+  size: 1
+  moveSpeed: 2
+  attack: 3
+  defense: 2
+  title: Skyport Tide Mage
+  race: 0
+  characterClass: 4
+  weaponClass: 4
+  weaponClassLevel: 3
+  weaponClassIconAmount: 1
+  selectedWeaponBoxIcons: 040000000000000000000000
+  roleIcon: {fileID: 447582902519592399, guid: a1711d220e4b4ac46b15084a62b3a1d5, type: 3}
+  classIcon: {fileID: -5711848221618334454, guid: 29d35882b6bcff14e8a1684f7ec6e3c5, type: 3}
+  weaponClassLevelBoxSprites:
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  weaponClassIconSprites:
+  - {fileID: 909688383747400512, guid: a04a31e8158b73f478a5798f62fcb311, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  description: 'Guiding Current: When summoned, move another allied Unit 1 space
+    to an empty adjacent space.'
+  flavorText: 'Let''s do this!
+
+    - Human Knight'

@@ -19,6 +19,9 @@ public class UnitCardView : MonoBehaviour
     private Image artworkImage;
 
     [SerializeField]
+    private Image illustrationImage;
+
+    [SerializeField]
     private Image roleIconImage;
 
     [SerializeField]
@@ -122,25 +125,17 @@ public class UnitCardView : MonoBehaviour
 
     private void RefreshImages()
     {
-        SetImage(
-            artworkImage,
-            cardData.cardArtwork
-        );
+        SetImage(artworkImage, cardData.cardArtwork);
 
-        SetImage(
-            roleIconImage,
-            cardData.roleIcon
-        );
+        SetImage(illustrationImage, cardData.illustrationArtwork);
 
-        SetImage(
-            classIconImage,
-            cardData.classIcon
-        );
+        if (illustrationImage != null) illustrationImage.preserveAspect = true;
 
-        SetImage(
-            expansionIconImage,
-            cardData.expansionIcon
-        );
+        SetImage(roleIconImage, cardData.roleIcon);
+
+        SetImage(classIconImage, cardData.classIcon);
+
+        SetImage(expansionIconImage, cardData.expansionIcon);
     }
 
     private void RefreshCardInformation()

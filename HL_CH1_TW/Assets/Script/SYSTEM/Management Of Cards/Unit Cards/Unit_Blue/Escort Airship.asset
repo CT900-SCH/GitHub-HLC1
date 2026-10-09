@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde49ebcbb5903a4faafd4b333d9725f, type: 3}
+  m_Name: Escort Airship
+  m_EditorClassIdentifier: 
+  cardID: HL-TWR-3002
+  illustratorName: Cello Tan
+  cardColor: 1
+  cardArtwork: {fileID: -1332965258783305666, guid: 6c3700d0a9aa6b344aef7f2b1353c431, type: 3}
+  illustrationArtwork: {fileID: -1332965258783305666, guid: f1b44f6051569da4f82d2ea68790438b, type: 3}
+  expansionIcon: {fileID: -5206853160465455904, guid: e39a3994b0fe77c46ba032dfdf0c6c5e, type: 3}
+  cardCost: 5
+  role: 1
+  size: 3
+  moveSpeed: 2
+  attack: 2
+  defense: 5
+  title: Flying Airship Granedier
+  race: 0
+  characterClass: 7
+  weaponClass: 3
+  weaponClassLevel: 4
+  weaponClassIconAmount: 0
+  selectedWeaponBoxIcons: 04000000000000000000000000000000
+  roleIcon: {fileID: 6677291236158490320, guid: c6e6c8275b457f8439eb7cd2a7a20b25, type: 3}
+  classIcon: {fileID: -1776361881, guid: b8ac129a8a764844e915be81f7dc8baf, type: 3}
+  weaponClassLevelBoxSprites:
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  weaponClassIconSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  description: 'Convoy Formation: Adjacent allied Units gain +1 DEF. This effect
+    does not stack.
+
+    Last Stand: When destroyed, summon 1 Human that is 4 cost
+    or less from your hand to the battlefield near your Player Card. (Deactivates
+    if there''s no space left to summon)'
+  flavorText: Different homelands. One destination.

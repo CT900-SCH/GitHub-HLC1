@@ -15,7 +15,7 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54294
+55494
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/User/Desktop/SIT/Github Desktop/CT900-SCH/GitHub-HLC1/HL_CH1_TW
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14636]  Target information:
+Player connection [18884]  Target information:
 
-Player connection [14636]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 1470161918 [EditorId] 1470161918 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18884]  * "[IP] 192.168.18.191 [Port] 0 [Flags] 2 [Guid] 1674054496 [EditorId] 1674054496 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ASE2N49) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14636] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14636] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18884] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18884] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.64 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.14 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002823 seconds.
-- Loaded All Assemblies, in  0.312 seconds
+Registered in 0.002550 seconds.
+- Loaded All Assemblies, in  0.330 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 213 ms
+Android Extension - Scanning For ADB Devices 258 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.516 seconds
-Domain Reload Profiling: 827ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.551 seconds
+Domain Reload Profiling: 880ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (104ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (112ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (122ms)
-				TypeCache.ScanAssembly (111ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (118ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (517ms)
+	FinalizeReload (552ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (483ms)
+		SetupLoadedEditorAssemblies (526ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (285ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (119ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (329ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,77 +139,430 @@ Domain Reload Profiling: 827ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.843 seconds
-Refreshing native plugins compatible for Editor in 1.86 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 8 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.677 seconds
-Domain Reload Profiling: 1518ms
-	BeginReloadAssembly (291ms)
+- Finished resetting the current domain, in  0.653 seconds
+Domain Reload Profiling: 1451ms
+	BeginReloadAssembly (281ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (480ms)
-		LoadAssemblies (338ms)
+	LoadAllAssembliesAndSetupDomain (448ms)
+		LoadAssemblies (313ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (141ms)
-			BuildScriptInfoCaches (56ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (53ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (678ms)
+	FinalizeReload (654ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
+		SetupLoadedEditorAssemblies (500ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (366ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4790 unused Assets / (1.6 MB). Loaded Objects now: 5392.
-Memory consumption went from 126.2 MB to 124.7 MB.
-Total: 6.434900 ms (FindLiveObjects: 0.380700 ms CreateObjectMapping: 0.322000 ms MarkObjects: 4.045200 ms  DeleteObjects: 1.685500 ms)
+Unloading 4794 unused Assets / (1.5 MB). Loaded Objects now: 5396.
+Memory consumption went from 130.2 MB to 128.7 MB.
+Total: 5.815900 ms (FindLiveObjects: 0.395900 ms CreateObjectMapping: 0.310500 ms MarkObjects: 3.822200 ms  DeleteObjects: 1.286300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 382583.498906 seconds.
-  path: Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2.png
-  artifactKey: Guid(fb5be59acaa1ff949b70d3800c85bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2.png using Guid(fb5be59acaa1ff949b70d3800c85bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54a808e7c9c8eb5277e132b99eb353fb') in 0.069873 seconds
+  Time since last request: 496730.858880 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Elven SwordMaster.asset
+  artifactKey: Guid(41be163a85db2bc458dbf0934598a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Elven SwordMaster.asset using Guid(41be163a85db2bc458dbf0934598a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0f7040ef5eb5b0e66a190c5368a926b') in 0.0202902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.257764 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Elven Thief.asset
+  artifactKey: Guid(41be163a85db2bc458dbf0934598a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Elven Thief.asset using Guid(41be163a85db2bc458dbf0934598a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fe9bc86bcfab2720ac4c2c6556936fd') in 0.0018542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.714679 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Elven Archer.asset
+  artifactKey: Guid(415d22e42568ede4790753ca467e170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Elven Archer.asset using Guid(415d22e42568ede4790753ca467e170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a4ffbc0ef74a813841d21764af9ad9a') in 0.0018394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.569688 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Human Knight.asset
+  artifactKey: Guid(3aab9bd82cf20824389956d1985d519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Human Knight.asset using Guid(3aab9bd82cf20824389956d1985d519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8ca869ad274da3dbbfbd4fe477750ca') in 0.0018983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.454067 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Elven Thief.asset
+  artifactKey: Guid(41be163a85db2bc458dbf0934598a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Elven Thief.asset using Guid(41be163a85db2bc458dbf0934598a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfcb7620897544bffe50ce7fa51364ac') in 0.0017417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1142.175677 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Blue
+  artifactKey: Guid(54427fba4eb099e44bb111d142aed866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Blue using Guid(54427fba4eb099e44bb111d142aed866) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f781b55fa5e0dc344efda7d015edd73f') in 0.0010859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.034293 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue
+  artifactKey: Guid(54427fba4eb099e44bb111d142aed866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue using Guid(54427fba4eb099e44bb111d142aed866) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd418b7ebd711f3deea63de641aa3a5ed') in 0.0004563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.343604 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue 1
+  artifactKey: Guid(93e2bdf356a7cc84d8502b5200df4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue 1 using Guid(93e2bdf356a7cc84d8502b5200df4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd70434cd1e2d1686a91dd627553c34d') in 0.0004406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.429172 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue 2
+  artifactKey: Guid(df28481b8f62ad447966ba2189e395f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue 2 using Guid(df28481b8f62ad447966ba2189e395f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04602f5fe07ec266b5e6e491e229281a') in 0.0004363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.406265 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue 3
+  artifactKey: Guid(71e22c64430b57c4f8111a95b3d071db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue 3 using Guid(71e22c64430b57c4f8111a95b3d071db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '057218c9b1c01f61cf0449ad671cb051') in 0.0004196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.637202 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue 4
+  artifactKey: Guid(4c092cf1ef64aab4d876351747e936ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue 4 using Guid(4c092cf1ef64aab4d876351747e936ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e879085a1024a4edf02c1fc752bca13b') in 0.0004272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.733795 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Purple
+  artifactKey: Guid(4c092cf1ef64aab4d876351747e936ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Purple using Guid(4c092cf1ef64aab4d876351747e936ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b032f652625b11d02d9e4a3307d095b3') in 0.0006125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.415382 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Red
+  artifactKey: Guid(71e22c64430b57c4f8111a95b3d071db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Red using Guid(71e22c64430b57c4f8111a95b3d071db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a444eb8f2a7c101676f4e0faf4fb5f2') in 0.0004323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.219711 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Green
+  artifactKey: Guid(df28481b8f62ad447966ba2189e395f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Green using Guid(df28481b8f62ad447966ba2189e395f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0921edda17cf91eaf8ce54c7b4aeb929') in 0.0004374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.633482 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Yellow
+  artifactKey: Guid(93e2bdf356a7cc84d8502b5200df4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Yellow using Guid(93e2bdf356a7cc84d8502b5200df4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27b8eb3ca206def18a488fa960da5049') in 0.0004446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.716889 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Human Knight 1.asset
+  artifactKey: Guid(dc40ba40e92bde844aa7b5c12ce1e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Human Knight 1.asset using Guid(dc40ba40e92bde844aa7b5c12ce1e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97b88a2479a9b619c69572b516080860') in 0.00217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.096164 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Trooper Spear Guard.asset
+  artifactKey: Guid(dc40ba40e92bde844aa7b5c12ce1e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Trooper Spear Guard.asset using Guid(dc40ba40e92bde844aa7b5c12ce1e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6b4c3ed1f9bb0a267dbeba987118bcc') in 0.0019841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.613472 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Trooper Spear Guard.asset
+  artifactKey: Guid(dc40ba40e92bde844aa7b5c12ce1e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Trooper Spear Guard.asset using Guid(dc40ba40e92bde844aa7b5c12ce1e082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c529d151a13b4b1b281429df52f884') in 0.0022943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.359056 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Riding Knight.asset
+  artifactKey: Guid(4f8e4f5e6d200154ab898c9a836a1461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Riding Knight.asset using Guid(4f8e4f5e6d200154ab898c9a836a1461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '898af7e65834535a1de008ecd32164c9') in 0.0022179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.969363 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Shield Knight.asset
+  artifactKey: Guid(3aab9bd82cf20824389956d1985d519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Shield Knight.asset using Guid(3aab9bd82cf20824389956d1985d519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '740edaea06ab5ef93466c80a811ebf2a') in 0.0018936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.180291 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Riding Knight.asset
+  artifactKey: Guid(4f8e4f5e6d200154ab898c9a836a1461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Riding Knight.asset using Guid(4f8e4f5e6d200154ab898c9a836a1461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29ff643a6ab4995c12f488a02698ba98') in 0.0025986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Shield Knight.asset
+  artifactKey: Guid(3aab9bd82cf20824389956d1985d519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Shield Knight.asset using Guid(3aab9bd82cf20824389956d1985d519f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a74a2a764959b308375a829aea4bc0d9') in 0.0015034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.086777 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Sky Archer.asset
+  artifactKey: Guid(bc54108d0e2ea784995cb4d0edf2fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Sky Archer.asset using Guid(bc54108d0e2ea784995cb4d0edf2fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b2e6d139efe57a82c88aeb7824d1887') in 0.0018049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.228956 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Sky Archer.asset
+  artifactKey: Guid(bc54108d0e2ea784995cb4d0edf2fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Sky Archer.asset using Guid(bc54108d0e2ea784995cb4d0edf2fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0884420620fa5d94609f546711268bd') in 0.0031267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.182572 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Wolfkin Scout.asset
+  artifactKey: Guid(74c150abf59915c48a7ab8c96a792eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Wolfkin Scout.asset using Guid(74c150abf59915c48a7ab8c96a792eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379134fe5acf0c72d33635c2faf51ee9') in 0.0017462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.208228 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Village Scout.asset
+  artifactKey: Guid(74c150abf59915c48a7ab8c96a792eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Village Scout.asset using Guid(74c150abf59915c48a7ab8c96a792eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da9754be6ca3f22ee87416ba7164f1dc') in 0.002093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.954166 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Village Scout.asset
+  artifactKey: Guid(74c150abf59915c48a7ab8c96a792eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Village Scout.asset using Guid(74c150abf59915c48a7ab8c96a792eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03a77132cda88c776fa5db818a84691d') in 0.0023422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.362640 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dwarven Dock Defender.asset
+  artifactKey: Guid(24b53552b6767a94296ef958eeb5700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dwarven Dock Defender.asset using Guid(24b53552b6767a94296ef958eeb5700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56d0cc6f2fdf7832078248c6ec4cb6de') in 0.0017754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.540970 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dock Defender.asset
+  artifactKey: Guid(24b53552b6767a94296ef958eeb5700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dock Defender.asset using Guid(24b53552b6767a94296ef958eeb5700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58a8845e733258fad291403813495b97') in 0.0022334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.820128 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dock Defender.asset
+  artifactKey: Guid(24b53552b6767a94296ef958eeb5700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dock Defender.asset using Guid(24b53552b6767a94296ef958eeb5700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2dc33a78028eba71b4851f384091241') in 0.0026682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.772350 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dock Defender 1.asset
+  artifactKey: Guid(ccb5b0caf93410b4b96c97d2f75491a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dock Defender 1.asset using Guid(ccb5b0caf93410b4b96c97d2f75491a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dbc5bbb2764ea31dbab8b1ae83457b2') in 0.0019915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.727881 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Wingfolk Courier.asset
+  artifactKey: Guid(ccb5b0caf93410b4b96c97d2f75491a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Wingfolk Courier.asset using Guid(ccb5b0caf93410b4b96c97d2f75491a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7704e4a820e6b1e9139903756080f79') in 0.0018764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.116739 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Wingfolk Courier.asset
+  artifactKey: Guid(ccb5b0caf93410b4b96c97d2f75491a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Wingfolk Courier.asset using Guid(ccb5b0caf93410b4b96c97d2f75491a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea4fe1e08a88b7f6fa704a84e10fc99') in 0.0021228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193818 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Gryphon Lance Rider.asset
+  artifactKey: Guid(5fe79c3104b9b994c881e20d991e801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Gryphon Lance Rider.asset using Guid(5fe79c3104b9b994c881e20d991e801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0dc50a1787d41f9159cd7c3cf61310c') in 0.0018223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.817089 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dock Defender 1.asset
+  artifactKey: Guid(9449231ce78329a4ebc916427c3a4a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Dock Defender 1.asset using Guid(9449231ce78329a4ebc916427c3a4a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dfc21810882143c964e0ed4028bc18d') in 0.0025276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.217837 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Skyport Tide Mage.asset
+  artifactKey: Guid(9449231ce78329a4ebc916427c3a4a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Skyport Tide Mage.asset using Guid(9449231ce78329a4ebc916427c3a4a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd38ae15fcacc224a7124e664ddf25bfd') in 0.0019468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.273782 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Skyport Tide Mage.asset
+  artifactKey: Guid(9449231ce78329a4ebc916427c3a4a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Skyport Tide Mage.asset using Guid(9449231ce78329a4ebc916427c3a4a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4af119f119ac45e0d6b162e294d7616d') in 0.0027774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.502792 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Flying Airship Cannon.asset
+  artifactKey: Guid(a101fb89c7b3df54b8b9759b85857fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Flying Airship Cannon.asset using Guid(a101fb89c7b3df54b8b9759b85857fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b15bf64c6067bef5894ce6e03dd81e9e') in 0.0017917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.582776 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Flying Airship Cannon.asset
+  artifactKey: Guid(a101fb89c7b3df54b8b9759b85857fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Flying Airship Cannon.asset using Guid(a101fb89c7b3df54b8b9759b85857fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff4e60ffd95b57882afa5a88b59b81cf') in 0.0019748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.357581 seconds.
+  path: Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Escort Airship.asset
+  artifactKey: Guid(b27f8044917129b4fa1d021c0131f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SYSTEM/Management Of Cards/Unit Cards/Unit_Blue/Escort Airship.asset using Guid(b27f8044917129b4fa1d021c0131f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c9efa2c84cda0839b6cace163567d83') in 0.0022264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 682.583241 seconds.
+  path: Assets/Art
+  artifactKey: Guid(58233d8a6a5be314d8d08f1af4b1fcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(58233d8a6a5be314d8d08f1af4b1fcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '305674d00fb055de357ab89386dcd221') in 0.0008934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.385839 seconds.
+  path: Assets/Art/Art_CardArt
+  artifactKey: Guid(4b3488a887ea6494480beefad311c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt using Guid(4b3488a887ea6494480beefad311c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88f4b3794548771ad81e8e12864058f1') in 0.000978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.462584 seconds.
+  path: Assets/Art/Art_CardArt/HERO - Ben The Sniper.psd
+  artifactKey: Guid(5612b742737b58548a7856e4edbce890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/HERO - Ben The Sniper.psd using Guid(5612b742737b58548a7856e4edbce890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98e1a4a968103b0d7c38a3ae90235a6a') in 0.0603682 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_04.png
-  artifactKey: Guid(a7d08664d0e79314b9766bc299d9883a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_04.png using Guid(a7d08664d0e79314b9766bc299d9883a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff9b52b18c63ed03e273e8d0d23132a1') in 0.0129699 seconds
+  Time since last request: 0.014454 seconds.
+  path: Assets/Art/Art_CardArt/UNIT - Elven SwordMaster.psd
+  artifactKey: Guid(e6fd2ede0911f1b41b8dd19880947877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/UNIT - Elven SwordMaster.psd using Guid(e6fd2ede0911f1b41b8dd19880947877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cc58d347c427dddc50470683639f763') in 0.0231552 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_03.png
-  artifactKey: Guid(0a6dee71d460aef4d86090b2e1e40ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Art_CardPanels/Yellow_CardPanel/PLAYER - Yellow_V2_Piece_03.png using Guid(0a6dee71d460aef4d86090b2e1e40ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '861b9294a9ff4f192dd4d3793652bae3') in 0.0798095 seconds
+  path: Assets/Art/Art_CardArt/UNIT - Human Knight.psd
+  artifactKey: Guid(c93b6ddd8ad675448960224638cbd868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/UNIT - Human Knight.psd using Guid(c93b6ddd8ad675448960224638cbd868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2576f641b2f85eaa6ab7b56a8d0a495') in 0.0164267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Art_CardArt/HERO - Tanya The Fighter.psd
+  artifactKey: Guid(b1d139732e2e5ff42993907d56f70f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/HERO - Tanya The Fighter.psd using Guid(b1d139732e2e5ff42993907d56f70f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd19a3df74d99cff12ad5f6b7a82c494c') in 0.0145205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Art_CardArt/UNIT - Elven Archer.psd
+  artifactKey: Guid(55bc4468f6379f145a46571aec6b11f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Art_CardArt/UNIT - Elven Archer.psd using Guid(55bc4468f6379f145a46571aec6b11f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e2736b28244f715837e2f43fa92c773') in 0.0171475 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

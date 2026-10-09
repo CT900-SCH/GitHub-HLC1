@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde49ebcbb5903a4faafd4b333d9725f, type: 3}
+  m_Name: Flying Airship Cannon
+  m_EditorClassIdentifier: 
+  cardID: HL-TWR-3002
+  illustratorName: Cello Tan
+  cardColor: 1
+  cardArtwork: {fileID: -1332965258783305666, guid: 7d89646e9729e514297855a199241756, type: 3}
+  illustrationArtwork: {fileID: -1332965258783305666, guid: d67fccf6c05079648a176c1c37b1f561, type: 3}
+  expansionIcon: {fileID: -5206853160465455904, guid: e39a3994b0fe77c46ba032dfdf0c6c5e, type: 3}
+  cardCost: 6
+  role: 2
+  size: 3
+  moveSpeed: 1
+  attack: 6
+  defense: 3
+  title: Flying Airship Cannon
+  race: 0
+  characterClass: 7
+  weaponClass: 3
+  weaponClassLevel: 4
+  weaponClassIconAmount: 4
+  selectedWeaponBoxIcons: 03000000030000000300000003000000
+  roleIcon: {fileID: 447582902519592399, guid: a1711d220e4b4ac46b15084a62b3a1d5, type: 3}
+  classIcon: {fileID: -1776361881, guid: b8ac129a8a764844e915be81f7dc8baf, type: 3}
+  weaponClassLevelBoxSprites:
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  weaponClassIconSprites:
+  - {fileID: -8339999545753408722, guid: 990221ebd03d61b44a135e759dc49a1e, type: 3}
+  - {fileID: -8339999545753408722, guid: 990221ebd03d61b44a135e759dc49a1e, type: 3}
+  - {fileID: -8339999545753408722, guid: 990221ebd03d61b44a135e759dc49a1e, type: 3}
+  - {fileID: -8339999545753408722, guid: 990221ebd03d61b44a135e759dc49a1e, type: 3}
+  description: 'Anchored Broadside: Gains +2 ATK when attacking if it has not moved
+    this turn.'
+  flavorText: Even the greatest vessel needs a gentle hand.

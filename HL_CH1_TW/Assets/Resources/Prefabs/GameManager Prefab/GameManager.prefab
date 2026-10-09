@@ -108,13 +108,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 689249bb25f681c4ca174bf2da3595df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumCapacity: 20
+  maximumCapacity: 50
   allowDuplicatePlayerCards: 0
   allowDuplicateHeroCards: 0
   allowDuplicateUnitCards: 1
   playerCards: []
   heroCards: []
   unitCards: []
+  deckSlots:
+  - playerCards: []
+    heroCards: []
+    unitCards: []
+  - playerCards: []
+    heroCards: []
+    unitCards: []
+  - playerCards: []
+    heroCards: []
+    unitCards: []
+  - playerCards: []
+    heroCards: []
+    unitCards: []
+  - playerCards: []
+    heroCards: []
+    unitCards: []
 --- !u!114 &4816475594746648858
 MonoBehaviour:
   m_ObjectHideFlags: 0

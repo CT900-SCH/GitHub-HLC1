@@ -70,6 +70,8 @@ public class UnitCardData : ScriptableObject
 
     public Sprite cardArtwork;
 
+    public Sprite illustrationArtwork;
+
     public Sprite expansionIcon;
 
     [Header("Battlefield Information")]

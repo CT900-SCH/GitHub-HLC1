@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde49ebcbb5903a4faafd4b333d9725f, type: 3}
+  m_Name: Sky Archer
+  m_EditorClassIdentifier: 
+  cardID: HL-TWR-3002
+  illustratorName: Cello Tan
+  cardColor: 1
+  cardArtwork: {fileID: -1332965258783305666, guid: 23353907d7e7a9441807875c374c652e, type: 3}
+  illustrationArtwork: {fileID: -1332965258783305666, guid: 0e301b89a69c09749ac0b72eb1bd21d6, type: 3}
+  expansionIcon: {fileID: -5206853160465455904, guid: e39a3994b0fe77c46ba032dfdf0c6c5e, type: 3}
+  cardCost: 3
+  role: 2
+  size: 1
+  moveSpeed: 2
+  attack: 3
+  defense: 1
+  title: Sky Archer
+  race: 0
+  characterClass: 4
+  weaponClass: 4
+  weaponClassLevel: 2
+  weaponClassIconAmount: 1
+  selectedWeaponBoxIcons: 0400000000000000
+  roleIcon: {fileID: 447582902519592399, guid: a1711d220e4b4ac46b15084a62b3a1d5, type: 3}
+  classIcon: {fileID: -5711848221618334454, guid: 29d35882b6bcff14e8a1684f7ec6e3c5, type: 3}
+  weaponClassLevelBoxSprites:
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  weaponClassIconSprites:
+  - {fileID: 909688383747400512, guid: a04a31e8158b73f478a5798f62fcb311, type: 3}
+  - {fileID: 0}
+  description: 'Covering Fire: Gains +1 ATK during a Team Attack with an allied melee
+    character.'
+  flavorText: Between the clouds, no movement escapes our sights.

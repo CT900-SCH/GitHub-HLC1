@@ -34,10 +34,10 @@ public class InventorySelectedCardDisplay : MonoBehaviour
         if (artworkImage != null)
         {
             artworkImage.sprite =
-                cardData.cardArtwork;
+                cardData.illustrationArtwork;
 
             artworkImage.enabled =
-                cardData.cardArtwork != null;
+                cardData.illustrationArtwork != null;
         }
 
         SetText(

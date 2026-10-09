@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde49ebcbb5903a4faafd4b333d9725f, type: 3}
+  m_Name: Elven Thief
+  m_EditorClassIdentifier: 
+  cardID: HL-TWR-3003
+  illustratorName: Cello Tan
+  cardColor: 2
+  cardArtwork: {fileID: -8297812409625600975, guid: 55bc4468f6379f145a46571aec6b11f0, type: 3}
+  expansionIcon: {fileID: -5206853160465455904, guid: e39a3994b0fe77c46ba032dfdf0c6c5e, type: 3}
+  cardCost: 2
+  role: 0
+  size: 1
+  moveSpeed: 3
+  attack: 3
+  defense: 1
+  title: Elven SwordMaster
+  race: 1
+  characterClass: 1
+  weaponClass: 6
+  weaponClassLevel: 2
+  weaponClassIconAmount: 1
+  selectedWeaponBoxIcons: 0600000006000000
+  roleIcon: {fileID: -2180640340703173285, guid: 7e6067545c891dd45bb0fe98f8dff4c5, type: 3}
+  classIcon: {fileID: -7275188651862321258, guid: b495f9fdd990b50408746f57e9c1ec18, type: 3}
+  weaponClassLevelBoxSprites:
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  - {fileID: -9047319850780462912, guid: d77e830845e2ffd4999e123904d46156, type: 3}
+  weaponClassIconSprites:
+  - {fileID: -6344501626895428711, guid: f6cae7a40300e4540b0abd8b52524cd6, type: 3}
+  - {fileID: 0}
+  description: This Card has no effects.
+  flavorText: 'Let''s do this!
+
+    - Human Knight'

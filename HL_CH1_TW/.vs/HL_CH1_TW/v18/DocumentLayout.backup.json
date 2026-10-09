@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of uis\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of uis\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of card storage\\deckslotcardentryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\deckslotcardentryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of card storage\\deckslotcardcustomize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\deckslotcardcustomize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of run\\randomcardrewardbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of run\\randomcardrewardbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\sit\\github desktop\\ct900-sch\\github-hlc1\\hl_ch1_tw\\assets\\script\\system\\management of card storage\\cardstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB15960-F6AD-3B00-3997-21F43A1EE7CC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\system\\management of card storage\\cardstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RandomCardRewardButton.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Run\\RandomCardRewardButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Run\\RandomCardRewardButton.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Run\\RandomCardRewardButton.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Run\\RandomCardRewardButton.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T13:30:02.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of UIs\\UIManager.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwGsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T13:16:33.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CardStorage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\CardStorage.cs",
+              "ViewState": "AgIAAGQCAAAAAAAAAAAQwA4DAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T13:02:31.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeckSlotCardCustomize.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardCustomize.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardCustomize.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardCustomize.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardCustomize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T13:01:46.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeckSlotCardEntryUI.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardEntryUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardEntryUI.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SIT\\Github Desktop\\CT900-SCH\\GitHub-HLC1\\HL_CH1_TW\\Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardEntryUI.cs",
+              "RelativeToolTip": "Assets\\Script\\SYSTEM\\Management Of Card Storage\\DeckSlotCardEntryUI.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAIwDcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T12:58:56.008Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
